@@ -1,0 +1,785 @@
+id,user_name,latitude,longitude,scientific_name,common_name,field:dieback percent,field:optional - signs of sap sucker feeding?,field:optional - what 'other factors' were observed?,field:tree health condition,field:tree number,field:tree diameter,field:tree canopy symptoms - wrc - simplified,field:most prevalent understory species,field:are baby redcedar trees present within sight?
+214021115,,47.3030092009,-122.5294234884,Thuja plicata,western redcedar,0,,No selection,Good,001,8.5,Healthy,,
+214025429,Fig,47.3038466667,-122.5330666667,Thuja plicata,western redcedar,0,No,No selection,Good,195,18.3,Healthy,,No
+214027782,,47.3036648197,-122.5328595804,Thuja plicata,western redcedar,0,No,No selection,Good,198,28,Thinning Canopy,,No
+232946824,Joey H,47.3050321036,-122.5176688441,Thuja plicata,western redcedar,0,,No selection,Good,401,41.4,Healthy,"None, mulched area",No
+232990742,Joey H,47.3046731763,-122.5163898804,Thuja plicata,western redcedar,5,,"Insect damage on trunk (holes, frass, galleries, etc.)",Fair,402,54.5,Dead Top,Grass,No
+233571384,Joey H,47.3042873203,-122.5170258955,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,301,43.5,Healthy,Grass,No
+234394642,Ray Lepore,47.3061065237,-122.5187528228,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Fair,102,30.7,Thinning Canopy,None,No
+234401098,Ray Lepore,47.3062313721,-122.5185747911,Thuja plicata,western redcedar,0,No,No selection,Fair,194,22.7,Thinning Canopy,None,No
+234401211,Ray Lepore,47.3062351859,-122.5185093285,Thuja plicata,western redcedar,0,No,No selection,Good,193,24.4,Other (please describe in Notes),None,No
+234954018,,47.3065083333,-122.5186916667,Thuja plicata,western redcedar,"",No,No selection,Good,100,30,Healthy,"",No
+234956011,,47.3066328202,-122.5186798572,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,99,24,Healthy,"",No Selection
+234958919,,47.3066904354,-122.5191071537,Thuja plicata,western redcedar,0,No Selection,No selection,Good,98,24.5,Healthy,"",No Selection
+234966967,,47.3068652072,-122.5194951019,Thuja plicata,western redcedar,"",No Selection,No selection,No selection,96,19,Healthy,"",No Selection
+236326879,Ray Lepore,47.3054337921,-122.5190070459,Thuja plicata,western redcedar,0,No,No selection,Good,192,13.4,Healthy,"Salah, Wax Myrtle, other shrubberies",No
+236329173,Ray Lepore,47.3051882023,-122.5188956504,Thuja plicata,western redcedar,0,Maybe,No selection,Good,109,13.3,Healthy,Salah,No
+236351850,Ray Lepore,47.3053760827,-122.5188752824,Thuja plicata,western redcedar,0,No,No selection,Fair,106,13.3,Thinning Canopy,"Salah, ferns, blackberry, ivy and Wax Myrtle",No
+236351982,Ray Lepore,47.3052957422,-122.5189000928,Thuja plicata,western redcedar,0,No,No selection,Good,108,12.9,Thinning Canopy,None,No
+236352114,Ray Lepore,47.3052543131,-122.5189191713,Thuja plicata,western redcedar,0,No,No selection,Good,107,6,Thinning Canopy,unsure,No
+236352345,Ray Lepore,47.3051762064,-122.5188854176,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,110,7.4,Thinning Canopy,Salah,No
+236352445,Ray Lepore,47.3050203131,-122.5188810659,Thuja plicata,western redcedar,0,No,No selection,Good,191,15.8,Healthy,Cherry Laurel and Wax Myrtle,No
+236352543,Ray Lepore,47.3049841531,-122.5188862627,Thuja plicata,western redcedar,0,No,No selection,Good,111,15.6,Healthy,"Cherry Laurel, Wax Myrtle, Oregon Grape, etc.",Yes
+236352678,Ray Lepore,47.3049491131,-122.5189438463,Thuja plicata,western redcedar,0,No,No selection,Good,112,16.3,Healthy,Baby Cherry Laurels maybe,No
+236352742,Ray Lepore,47.3050351531,-122.5187817403,Thuja plicata,western redcedar,0,No,No selection,Good,113,12.6,Thinning Canopy,Cherry or Portuguese Laurels,Yes
+236352804,Ray Lepore,47.3050462631,-122.5187923853,Thuja plicata,western redcedar,0,No,No selection,Good,114,8.9,Thinning Canopy,Cherry Laurel,No
+236352970,Ray Lepore,47.3045206331,-122.5187900384,Thuja plicata,western redcedar,0,No,No selection,Good,115,56.1,Healthy,None,No
+236353073,Ray Lepore,47.3042397531,-122.5188058802,Thuja plicata,western redcedar,5,Yes,Other (please describe in Notes),Good,116,46.9,Thinning Canopy,None,No
+236353244,Ray Lepore,47.3036032331,-122.5187960734,Thuja plicata,western redcedar,0,Yes,No selection,Good,117,47.3,Healthy,Ferns and stinking iris,No
+237909753,,47.3091592094,-122.5240576433,Thuja plicata,western redcedar,0,No,No selection,Good,188,36,Thinning Canopy,None,No
+237918831,,47.3096991231,-122.5272146719,Thuja plicata,western redcedar,"",Yes,No selection,Fair,118,54.3,Thinning Canopy,Sword ferns,No
+237923863,,47.3104526873,-122.5290861503,Thuja plicata,western redcedar,0,No,No selection,Good,185,38.2,Healthy,Huckleberry’s and sword ferns,No
+237927875,,47.3089612367,-122.5307267866,Thuja plicata,western redcedar,0,No,No selection,Good,183,29.1,Healthy,Ferns,No
+237931639,,47.3087305431,-122.5311642232,Thuja plicata,western redcedar,0,No,No selection,Good,181,48.1,Healthy,Sword ferns,No
+237935754,,47.3084209218,-122.5312101913,Thuja plicata,western redcedar,0,No,No selection,Good,180,42,Healthy,Ferns,No
+237937638,,47.3101933522,-122.532474865,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,119,14.8,Healthy,Salal minimal,No
+237952977,,47.3101429655,-122.5325768736,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,122,35,Healthy,Huckleberry and ferns sparse,No
+237955035,Ray Lepore,47.3101055716,-122.5290866197,Thuja plicata,western redcedar,0,No,No selection,Good,186,41.8,Healthy,Huckleberry and sword ferns,No
+237955164,Ray Lepore,47.3094083731,-122.5297470299,Thuja plicata,western redcedar,0,No,No selection,Good,184,44.5,Healthy,None,No
+237955236,Ray Lepore,47.3085012431,-122.5308679418,Thuja plicata,western redcedar,0,No,No selection,Good,182,9.4,Healthy,Salah,No
+237955393,Ray Lepore,47.3082695231,-122.5312070736,Thuja plicata,western redcedar,0,No,No selection,Good,189,25.1,Healthy,Sword ferns,No
+237955519,Ray Lepore,47.3098711731,-122.5319642947,Thuja plicata,western redcedar,0,No,No selection,Good,179,45,Healthy,"Salah, sword ferns, huckleberry",No
+237955596,Ray Lepore,47.3101027636,-122.5325035864,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Poor,120,39.1,Thinning Canopy,Huckleberry,No
+238447663,,47.3092165246,-122.5243525857,Thuja plicata,western redcedar,"",Yes,No selection,Good,121,49.6,Healthy,Ferns Oregon grape,No
+238449375,,47.3099279618,-122.5253924803,Thuja plicata,western redcedar,10,No,Multiple factors (please describe in Notes),Fair,178,41.5,Branch Dieback or 'Flagging',Sala ferns,No
+238451883,,47.3098813231,-122.526238298,Thuja plicata,western redcedar,0,No,No selection,Good,177,21.7,Healthy,Ferns,No
+238455499,Ray Lepore,47.3085988431,-122.5247323049,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Fair,123,31.4,Other (please describe in Notes),None,No
+238457146,,47.3077778264,-122.5251572551,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Fair,124,45.9,Thinning Canopy,Ferns,No
+238460136,,47.3074145631,-122.5259254667,Thuja plicata,western redcedar,0,No,No selection,Poor,165,41.1,Thinning Canopy,Fern and huckleberry,No
+238462789,,47.3072798177,-122.5260517001,Thuja plicata,western redcedar,0,No,No selection,Fair,171,21.3,Thinning Canopy,None,No
+238464703,,47.3065301531,-122.5280505313,Thuja plicata,western redcedar,0,No,No selection,Fair,166,33.9,Other (please describe in Notes),Huckleberry,No
+238475549,Ray Lepore,47.3073834647,-122.525992524,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Poor,170,43.3,Thinning Canopy,Ferns,No
+238475681,Ray Lepore,47.3065858831,-122.5286475906,Thuja plicata,western redcedar,0,No,No selection,Good,168,26.8,Healthy,"Ferns, huckleberry",No
+238707094,,47.3060531194,-122.5307584051,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,174,20.8,Other (please describe in Notes),Salal,No
+240171708,,47.3045034429,-122.5328697001,Thuja plicata,western redcedar,0,No,No selection,Good,175,67.8,Thinning Canopy,None,No
+240174445,,47.3045232579,-122.5328653578,Thuja plicata,western redcedar,10,No,No selection,Good,169,67.4,Healthy,None,No
+240176472,,47.3046305274,-122.5326490773,Thuja plicata,western redcedar,0,No,No selection,Good,125,42.9,Healthy,Sword ferns,No
+240178374,,47.304296263,-122.5326950815,Thuja plicata,western redcedar,0,No,No selection,Good,173,29,Healthy,None,No
+240179241,Ray Lepore,47.3043031153,-122.5325363596,Thuja plicata,western redcedar,0,No,No selection,Good,164,30.4,Branch Dieback or 'Flagging',None,Yes
+240180347,Ray Lepore,47.3040977587,-122.5324919355,Thuja plicata,western redcedar,0,No,No selection,Good,163,8.2,Healthy,None,Yes
+240181955,Ray Lepore,47.304143386,-122.5325482066,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,187,29.4,Healthy,None,Yes
+240182877,,47.3046512438,-122.5325879338,Thuja plicata,western redcedar,0,No,No selection,Good,167,45.6,Healthy,None,No
+240185426,,47.3041823069,-122.5325692772,Thuja plicata,western redcedar,0,No,No selection,Good,162,20.8,Healthy,None,No
+240187568,Ray Lepore,47.3040514067,-122.5323567354,Thuja plicata,western redcedar,0,No,No selection,Good,159,42.3,Healthy,Salah,No
+240188509,,47.303734638,-122.5327988411,Thuja plicata,western redcedar,0,No,No selection,Good,161,13.9,Healthy,None,No
+240188752,,47.3039735714,-122.5325254897,Thuja plicata,western redcedar,0,No,No selection,Good,160,31.1,Branch Dieback or 'Flagging',None,No
+240192663,,47.3042099986,-122.5328111704,Thuja plicata,western redcedar,0,No,No selection,Good,126,30.8,Healthy,None,No
+240192756,,47.3040950632,-122.5325485158,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Good,172,28.8,Healthy,None,No
+241912320,,47.3042750875,-122.5332643034,Thuja plicata,western redcedar,0,No,No selection,Good,131,30.5,Healthy,None,No
+241913614,,47.3039379015,-122.533310835,Thuja plicata,western redcedar,0,No,No selection,Good,129,37.1,Healthy,None,No
+241914631,Ray Lepore,47.3040606021,-122.5334054438,Thuja plicata,western redcedar,0,No,No selection,Poor,132,9.8,Healthy,None,No
+241915784,Ray Lepore,47.3039986949,-122.5330630106,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,133,42,Healthy,None,No
+241916881,Ray Lepore,47.303955392,-122.5331043174,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,134,17.5,Healthy,None,No
+241917857,Ray Lepore,47.3038886721,-122.5331691933,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,158,18.6,Thinning Canopy,None,No
+241920011,Ray Lepore,47.30378679,-122.533303639,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,136,44.5,Thinning Canopy,None,No
+241921325,,47.3038294168,-122.5329765914,Thuja plicata,western redcedar,0,No,No selection,Fair,156,34.2,Healthy,None,No
+241922454,,47.3038306728,-122.5327586594,Thuja plicata,western redcedar,0,No,No selection,Good,157,46.9,Healthy,None,No
+241923428,,47.3038563873,-122.5327237277,Thuja plicata,western redcedar,0,No,No selection,Good,151,34,Healthy,None,No
+241924447,,47.3037777788,-122.5327652711,Thuja plicata,western redcedar,0,No,No selection,Good,150,43.4,Healthy,None,No
+241925604,Ray Lepore,47.303661732,-122.5329146349,Thuja plicata,western redcedar,0,No,No selection,Good,153,34,Healthy,None,No
+241927524,Ray Lepore,47.3040760031,-122.5327599044,Thuja plicata,western redcedar,0,No,No selection,Good,137,26.3,Healthy,None,No
+241928137,,47.3040301231,-122.5334755065,Thuja plicata,western redcedar,0,No,No selection,Good,127,24.8,Healthy,None,No
+241938355,Ray Lepore,47.3040733362,-122.5328351701,Thuja plicata,western redcedar,0,No,No selection,Fair,138,17.6,Thinning Canopy,None,No
+242110641,,47.3041464934,-122.5324798663,Thuja plicata,western redcedar,20,No,Mechanical damage or fire scars,Poor,135,44.7,Dead Top,None,No
+242110760,,47.3043435918,-122.5315724622,Thuja plicata,western redcedar,0,No,No selection,Good,152,12.2,Healthy,None,No
+242110879,,47.3041881168,-122.5327750731,Thuja plicata,western redcedar,"",No,No selection,Good,155,16.8,Healthy,None,No
+242523646,,47.3038966463,-122.5240282083,Thuja plicata,western redcedar,0,No,No selection,Good,139,46.5,Healthy,Trailing blackberry,No
+242524986,,47.3040473829,-122.5239400653,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,142,41.4,Healthy,Ferns and trailing blackberries,No
+242525399,,47.304127105,-122.5241678729,Thuja plicata,western redcedar,0,No,No selection,Good,141,37.3,Healthy,Ferns baby cedars invasive blackberries,No
+242528323,,47.3040786731,-122.5239570992,Thuja plicata,western redcedar,0,No,No selection,Good,149,31.3,Healthy,"Trailing blackberries, ferns, baby fir tree",No
+242529625,,47.3042624908,-122.5239395919,Thuja plicata,western redcedar,0,No,No selection,Good,148,36,Healthy,Minimal trailing blackberries,No
+242530306,,47.3041408331,-122.5239809324,Thuja plicata,western redcedar,0,No,No selection,Good,146,32.7,Healthy,Few ferns,No
+242530716,,47.3041278984,-122.524228331,Thuja plicata,western redcedar,0,No,No selection,Good,141A,"",Healthy,5 small western redcedars growing on nurse log,Yes
+242531816,,47.3040904213,-122.5241245791,Thuja plicata,western redcedar,0,No,No selection,Good,147,31.4,Healthy,Huckleberry,No
+242533133,Ray Lepore,47.3037659942,-122.5244042722,Thuja plicata,western redcedar,0,No,No selection,Good,154,51.8,Healthy,Ferns,No
+242534084,Ray Lepore,47.3036921331,-122.5242078696,Thuja plicata,western redcedar,0,No,No selection,Good,140,32.7,Healthy,None,No
+242534641,Ray Lepore,47.3037935874,-122.5243185369,Thuja plicata,western redcedar,0,No,No selection,Good,145,44.2,Healthy,None,No
+242535874,Ray Lepore,47.303500479,-122.5241102993,Thuja plicata,western redcedar,0,No,No selection,Good,002,41.8,Healthy,Ferns,No
+242537038,Ray Lepore,47.3035885672,-122.5240665706,Thuja plicata,western redcedar,0,No,No selection,Fair,003,32.2,Thinning Canopy,"Ferns, holly",No
+242539109,Ray Lepore,47.3036747824,-122.5240619331,Thuja plicata,western redcedar,0,No,No selection,Good,004,28.1,Healthy,Ferns,No
+242540433,,47.3033330531,-122.5242866114,Thuja plicata,western redcedar,0,No,No selection,Good,006,29.7,Healthy,Ferns and Holly,No
+242541489,,47.3034492059,-122.5240099821,Thuja plicata,western redcedar,0,No,No selection,Good,007,9.5,Healthy,Ferns,Yes
+242541921,,47.30330638,-122.5241818241,Thuja plicata,western redcedar,0,No,No selection,Good,008,9.2,Healthy,Few ferns,Yes
+242542100,Ray Lepore,47.3037491972,-122.5239928534,Thuja plicata,western redcedar,3,No,Other (please describe in Notes),Fair,005,34.1,Branch Dieback or 'Flagging',Ferns,No
+242542571,,47.3033608631,-122.5240886404,Thuja plicata,western redcedar,0,No Selection,No selection,Good,009,7.1,Healthy,Few ferns,Yes
+242547345,,47.3029182206,-122.5249033396,Thuja plicata,western redcedar,0,No,No selection,Fair,093,32.7,Healthy,None,No
+242549073,,47.3041174395,-122.5247836157,Thuja plicata,western redcedar,0,No,No selection,Good,092,36,Healthy,Ferns,No
+242549868,Ray Lepore,47.3030499783,-122.5240480515,Thuja plicata,western redcedar,0,Yes,No selection,Good,094,41.4,Healthy,Ferns,No
+242558967,Ray Lepore,47.3030352543,-122.5240807155,Thuja plicata,western redcedar,0,No,No selection,Good,94A,"",Healthy,Ferns,Yes
+242559078,Ray Lepore,47.3045735918,-122.5243023772,Thuja plicata,western redcedar,0,No,No selection,Fair,010,36.5,Branch Dieback or 'Flagging',Salah,No
+243662613,Ray Lepore,47.3043502482,-122.5242911826,Thuja plicata,western redcedar,0,No,No selection,Good,011,48.5,Healthy,Ferns,No
+243664542,Ray Lepore,47.3042984025,-122.5243951548,Thuja plicata,western redcedar,0,No,No selection,Good,012,34.2,Healthy,Ferns and ocean spray,No
+243665705,Ray Lepore,47.3043126295,-122.5245169028,Thuja plicata,western redcedar,0,No,No selection,Fair,013,36.1,Thinning Canopy,Ferns and salah,No
+243666470,Ray Lepore,47.304314735,-122.5245461638,Thuja plicata,western redcedar,0,No,No selection,Good,014,41,Healthy,Ferns,No
+243669946,,47.3050388831,-122.5241940788,Thuja plicata,western redcedar,0,No,No selection,Good,17,43,Healthy,Salal and huckleberry,No
+243671521,,47.3053207831,-122.5236763188,Thuja plicata,western redcedar,0,No,No selection,Good,18,38.5,Healthy,Salal,No
+243674496,,47.3052412831,-122.5230455671,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,19,37.2,Healthy,Salal and huckleberry,No
+243677228,,47.3054229731,-122.5231889446,Thuja plicata,western redcedar,5,No,No selection,Fair,20,27.4,Branch Dieback or 'Flagging',Huckleberry,No
+243678189,Ray Lepore,47.3042706871,-122.5246790283,Thuja plicata,western redcedar,0,No,No selection,Good,016,30.3,Healthy,Huckleberry and Holly,No
+243680547,Ray Lepore,47.3042724894,-122.5247672056,Thuja plicata,western redcedar,0,No,No selection,Good,015,31.3,Healthy,Huckleberry,No
+243680862,,47.3053298411,-122.5232686518,Thuja plicata,western redcedar,0,No,No selection,Good,21,13.5,Healthy,Huckleberry,No
+243681047,,47.3054860631,-122.5232475036,Thuja plicata,western redcedar,0,No,No selection,Fair,22,29.5,Healthy,Huckleberry and dead ferns,No
+243681819,Ray Lepore,47.3059047845,-122.5234966322,Thuja plicata,western redcedar,0,No,No selection,Good,023,32.9,Healthy,Ferns,No
+243681976,Ray Lepore,47.3055681863,-122.5240803445,Thuja plicata,western redcedar,0,No,No selection,Good,024,34.6,Healthy,Ferns,No
+243700631,,47.3062045264,-122.5238232052,Thuja plicata,western redcedar,0,No,No selection,Good,27,27.9,Healthy,Ferns,No
+243702325,,47.3088612831,-122.522580339,Thuja plicata,western redcedar,0,Yes,Mechanical damage or fire scars,Fair,29,37.5,Healthy,None,No
+243702631,,47.3074044831,-122.5237198396,Thuja plicata,western redcedar,0,No,No selection,Good,28,41.8,Healthy,Ferns,No
+243705213,Ray Lepore,47.3060504839,-122.5238254574,Thuja plicata,western redcedar,0,No,No selection,Good,025,40.6,Healthy,Salal,No
+243705929,Ray Lepore,47.3061096878,-122.523759422,Thuja plicata,western redcedar,0,No,No selection,Fair,026,44.8,Thinning Canopy,Ferns,No
+243706022,Ray Lepore,47.3087290732,-122.5225554237,Thuja plicata,western redcedar,0,No,No selection,Good,031,7.3,Healthy,None,No
+244211789,,47.3043056414,-122.5240490311,Thuja plicata,western redcedar,0,No,No selection,Good,143,42.9,Healthy,None,No
+244211839,,47.304061097,-122.5241816295,Thuja plicata,western redcedar,0,No,No selection,Good,144,49.1,Healthy,Ferns,No
+246354053,,47.3035851676,-122.5254241854,Thuja plicata,western redcedar,"",No,No selection,Good,32,25.4,Healthy,Oregon grape and huckleberry,No
+246355878,,47.3037594431,-122.525760313,Thuja plicata,western redcedar,"",No,No selection,Good,33,37.7,Healthy,Oregon grape,No
+246357329,,47.3040010763,-122.5264915086,Thuja plicata,western redcedar,"",No,No selection,Fair,34,24.3,Branch Dieback or 'Flagging',Oregon Grape,No
+246358840,,47.3040059031,-122.5267278605,Thuja plicata,western redcedar,"",No,No selection,Good,35,12.3,Healthy,Oregon grape,No
+246359662,,47.3090102131,-122.5225497187,Thuja plicata,western redcedar,0,Yes,No selection,Fair,30,42.1,Healthy,None,No
+246360574,,47.3041436757,-122.5278266695,Thuja plicata,western redcedar,0,No,No selection,Fair,037,28.7,Branch Dieback or 'Flagging',Huckleberry,No
+246361705,,47.3041642169,-122.5279228442,Thuja plicata,western redcedar,0,No,No selection,Good,38,22.6,Healthy,Huckleberry,No
+246362055,,47.3038538789,-122.5283090555,Thuja plicata,western redcedar,0,No,No selection,Fair,39,22.3,Other (please describe in Notes),Huckleberry,No
+246364151,Ray Lepore,47.3039050831,-122.5284605043,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,042,32.4,Thinning Canopy,Huckleberry,No
+246364393,Ray Lepore,47.3039102031,-122.5284343066,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Poor,043,16.2,Branch Dieback or 'Flagging',Huckleberry,No
+246364959,,47.3037906638,-122.5282103077,Thuja plicata,western redcedar,0,No,No selection,Fair,40,19.7,Healthy,None,No
+246366970,,47.3039230335,-122.5283631129,Thuja plicata,western redcedar,0,No,No selection,Fair,041,21.3,Healthy,Huckleberry,No
+246367279,Ray Lepore,47.3038664763,-122.5283616799,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,044,21.9,Thinning Canopy,Huckleberry,No
+246367411,,47.3038155019,-122.5286541975,Thuja plicata,western redcedar,"",No Selection,No selection,No selection,047,11.4,Healthy,"",No Selection
+246371320,,47.3039749903,-122.5285156193,Thuja plicata,western redcedar,0,No,No selection,Fair,48,24.3,Healthy,Huckelberry,No
+246371533,,47.3040266231,-122.5286033905,Thuja plicata,western redcedar,0,No,No selection,Good,49,14.4,Healthy,Huckelberry,No
+246371960,,47.3039843331,-122.5285416353,Thuja plicata,western redcedar,0,No,No selection,Fair,52,8.9,Healthy,None,No
+246375388,,47.3041370046,-122.5274892739,Thuja plicata,western redcedar,"",No,No selection,Good,36,33.9,Healthy,Oregon Grape,No
+246376618,Ray Lepore,47.3039160646,-122.5282701969,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,045,20.8,Thinning Canopy,Huckleberry,No
+246376682,Ray Lepore,47.3038042562,-122.5284647645,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,046,28.5,Thinning Canopy,Huckleberry,No
+246376839,Ray Lepore,47.3039871014,-122.5285660386,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Poor,050,20.1,Thinning Canopy,Huckleberry,No
+246376892,Ray Lepore,47.3039567794,-122.5285133504,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Poor,051,28.2,Thinning Canopy,Huckleberry,No
+246376958,Ray Lepore,47.3039683031,-122.5284991868,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,053,29.1,Thinning Canopy,None,No
+247648447,,47.3037772979,-122.528632092,Thuja plicata,western redcedar,0,No,No selection,Good,054,38.5,Healthy,Huckleberry,No
+247649163,,47.3039299022,-122.5286072432,Thuja plicata,western redcedar,"",No,No selection,Good,55,12.5,Healthy,None,No
+247650814,,47.3038472594,-122.5283663315,Thuja plicata,western redcedar,"",No,No selection,No selection,56,30,Healthy,Hackelberry,No
+247651158,,47.303835676,-122.528798226,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Other,057,22.7,Other (please describe in Notes),Huckleberry,No
+247652022,,47.3039604028,-122.5287067779,Thuja plicata,western redcedar,"",No,No selection,Good,58,31.2,Healthy,Huckleberry and Oregon grape,No
+247652097,,47.3038551456,-122.5287117422,Thuja plicata,western redcedar,0,No,No selection,Fair,60,23.8,Healthy,Huckelberry,No
+247653125,,47.3037852905,-122.5287674307,Thuja plicata,western redcedar,20,No,Multiple factors (please describe in Notes),Fair,059,17,Thinning Canopy,Huckleberry,No
+247653693,,47.3037986643,-122.5289356522,Thuja plicata,western redcedar,"",No,No selection,Good,61,31.9,Healthy,Oregon grape,No
+247656792,,47.3038466301,-122.5288714062,Thuja plicata,western redcedar,0,No,No selection,Good,062,39.9,Healthy,Huckleberry,No
+247656986,,47.303860538,-122.5288901646,Thuja plicata,western redcedar,"",No,Other (please describe in Notes),Fair,064,29.1,Thinning Canopy,"",No
+247658553,,47.3047591231,-122.5301413026,Thuja plicata,western redcedar,0,No,No selection,Good,68,28.9,Healthy,Huckelberry,No
+247660774,,47.3048299331,-122.5303058937,Thuja plicata,western redcedar,0,No,No selection,Good,70,10.6,Healthy,Huckelberry,No
+247672989,Ray Lepore,47.3037474031,-122.5289946255,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,065,39,Healthy,Huckleberry,Yes
+247673089,Ray Lepore,47.3044552431,-122.5304130853,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,066,30.5,Healthy,Huckleberry,No
+247771455,,47.3038603924,-122.5289188981,Thuja plicata,western redcedar,"",No,No selection,Fair,63,19.1,Healthy,Oregon grape,No
+247771547,,47.304443381,-122.5303775075,Thuja plicata,western redcedar,0,No,No selection,Good,067,13.1,Healthy,Huckleberry,No
+247771583,,47.3047025048,-122.5302516303,Thuja plicata,western redcedar,80,Maybe,Multiple factors (please describe in Notes),Poor,069,8.4,Dead Top,Huckleberry,No
+247771630,,47.3048017656,-122.5303316649,Thuja plicata,western redcedar,0,No,No selection,Good,071,19,Healthy,Salal,No
+249923634,,47.3043111261,-122.5325540117,Thuja plicata,western redcedar,"",No,No selection,Good,72,31.8,Healthy,"",No
+249924761,,47.3037392915,-122.532829404,Thuja plicata,western redcedar,"",No,No selection,Good,74,15.3,Healthy,Oregon grape and sword fern,No
+249930734,,47.3055819662,-122.5303995783,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,83,27.1,Healthy,"Baby Hemlock Salal, huckelberry",No
+249931311,,47.3055213495,-122.5304963346,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,84,26.6,Healthy,Salal,No
+249932247,,47.3055425923,-122.5304894865,Thuja plicata,western redcedar,10,No,Multiple factors (please describe in Notes),Poor,85,8.6,Dead Top,Salal,Yes
+249934191,,47.3057084544,-122.5305482422,Thuja plicata,western redcedar,0,No,No selection,Good,86,35.1,Healthy,"Salal, huckelberry",Yes
+249938227,,47.3060040731,-122.5314769453,Thuja plicata,western redcedar,0,No,No selection,Good,88,31,Healthy,Salal,No
+249938248,Ray Lepore,47.3050424019,-122.5303001338,Thuja plicata,western redcedar,0,No,No selection,Good,077,43.5,Healthy,Huckleberry and ferns,No
+249938319,Ray Lepore,47.3050722831,-122.5302247648,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,078,26.3,Healthy,Huckleberry and ferns,No
+249938434,Ray Lepore,47.3053115431,-122.5302775084,Thuja plicata,western redcedar,0,No,No selection,Good,079,39.9,Healthy,Huckleberry and Salal,No
+249938462,Ray Lepore,47.3052966531,-122.5301883261,Thuja plicata,western redcedar,0,No,No selection,Good,080,31.5,Healthy,Salal,No
+249938489,Ray Lepore,47.3054497231,-122.5304478408,Thuja plicata,western redcedar,0,No,No selection,Fair,081,13.6,Other (please describe in Notes),Huckleberry and ferns,No
+249938513,Ray Lepore,47.3055020431,-122.5304489134,Thuja plicata,western redcedar,"",No,No selection,Good,082,38.8,Other (please describe in Notes),Huckleberry and salal,No
+249954187,,47.3044878816,-122.5316703072,Thuja plicata,western redcedar,"",No,No selection,Good,75,18.8,Healthy,Huckleberry,No
+249954222,,47.3049334913,-122.5303504454,Thuja plicata,western redcedar,"",No,No selection,Good,76,34.7,Healthy,"",No
+250722766,,47.3031454653,-122.5240590402,Thuja plicata,western redcedar,5,No,No selection,Fair,89,17.2,Other (please describe in Notes),Sala huckleberry mushrooms,No
+250723012,,47.3058270919,-122.5308896914,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,090,26.5,Healthy,Salal,No Selection
+250723945,,47.3059603631,-122.5307387899,Thuja plicata,western redcedar,"",No,No selection,Good,95,50.3,Healthy,"Sala, fern",No
+250724348,,47.3062039531,-122.5320723615,Thuja plicata,western redcedar,"",No,No selection,Good,404,28.1,Healthy,Sword fern,No
+250724710,,47.3061199335,-122.5321522362,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Good,403,36,Healthy,Fern,No
+250725397,,47.3061647026,-122.5320390155,Thuja plicata,western redcedar,"",No,No selection,Good,405,27.5,Healthy,Huckleberry,No
+250726045,,47.3054148515,-122.5323002239,Thuja plicata,western redcedar,"",No,No selection,No selection,406,45,Healthy,Sala,No
+250727749,,47.3047599731,-122.5330675311,Thuja plicata,western redcedar,0,No,No selection,Good,409,48.9,Healthy,Rhodedendroms,No
+250731033,,47.3047222753,-122.5324219027,Thuja plicata,western redcedar,"",No,No selection,Good,601,43.1,Healthy,Sword fern,No
+250796723,,47.3051841648,-122.5327756067,Thuja plicata,western redcedar,0,No,No selection,No selection,407,44.5,Healthy,Huckleberry,No
+250796726,,47.3050522514,-122.533190248,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,408,51.1,Healthy,None,No
+251810839,Ray Lepore,47.3084764484,-122.5302907791,Thuja plicata,western redcedar,0,No,No selection,Fair,410,46,Other (please describe in Notes),Huckleberry,No
+251815441,,47.3070797603,-122.5314876987,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,415,38.6,Healthy,Salal,No Selection
+251816634,,47.3063698298,-122.5315982531,Thuja plicata,western redcedar,0,No,No selection,Good,416,24.6,Healthy,Huckleberry and fern,No
+251816727,,47.3070237306,-122.52932471,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,417,57.9,Healthy,Huckleberry and fern,No
+251817718,,47.3078212693,-122.5288741722,Thuja plicata,western redcedar,"",No,No selection,Good,419,29,Healthy,Sword fern,No
+251818433,,47.3077587711,-122.5290482346,Thuja plicata,western redcedar,0,No,No selection,Fair,418,25.6,Thinning Canopy,Huckleberry,No
+251818789,,47.3079096046,-122.5288278946,Thuja plicata,western redcedar,0,No,No selection,Good,420,21.6,Healthy,Huckleberry and sworn fern,No
+251819326,,47.3085014784,-122.5289629876,Thuja plicata,western redcedar,0,No,No selection,Good,421,44.3,Healthy,None,No
+251820093,,47.3088009905,-122.5303628494,Thuja plicata,western redcedar,"",No,No selection,Good,422,44.2,Healthy,Sword fern,No
+251822084,Ray Lepore,47.3080089631,-122.5306483249,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,411,44.8,Other (please describe in Notes),Salal,No
+251822129,Ray Lepore,47.3077038831,-122.5310910879,Thuja plicata,western redcedar,0,,Other (please describe in Notes),Good,412,56.9,Healthy,Huckleberry and Sword Ferns,
+251822165,Ray Lepore,47.3077913631,-122.5308629609,Thuja plicata,western redcedar,0,No,No selection,Fair,413,39.9,Thinning Canopy,Huckleberry and Sword Ferns,No
+251822209,Ray Lepore,47.3071783831,-122.5315304585,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,414,32.7,Branch Dieback or 'Flagging',None,No
+251900888,,47.3080572845,-122.5286531697,Thuja plicata,western redcedar,100,Maybe,Other (please describe in Notes),Dead,420A,"",Tree is dead,"",No
+252632353,,47.3063140112,-122.5183311006,Thuja plicata,western redcedar,0,No,No selection,Good,423,9.8,Healthy,None,No
+252632785,,47.3063003769,-122.5185349729,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Poor,424,26.9,Branch Dieback or 'Flagging',None,No
+252633042,,47.306403491,-122.51855967,Thuja plicata,western redcedar,"",No,No selection,Good,425,32.2,Healthy,None,No
+252633822,,47.3067196782,-122.5191712758,Thuja plicata,western redcedar,"",No,No selection,Good,426,27.5,Healthy,None,No
+252634225,,47.3067245092,-122.5190509257,Thuja plicata,western redcedar,"",No,No selection,Good,427,29.2,Healthy,None,No
+252635022,Ray Lepore,47.3071524594,-122.5198312384,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,097,29.4,Healthy,Salal,No
+252636222,Ray Lepore,47.3072106718,-122.5197359362,Thuja plicata,western redcedar,"",No,No selection,Good,429,15,Healthy,None,No
+252637463,,47.3085143564,-122.5224677816,Thuja plicata,western redcedar,"",No,No selection,Good,431,45.7,Healthy,None,No
+252637685,,47.3072159631,-122.5198022755,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,428,24,Healthy,Salal,No
+252638037,,47.3086342231,-122.5229984071,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,432,41.2,Healthy,None,No
+252640600,Ray Lepore,47.3078168929,-122.5222303068,Thuja plicata,western redcedar,0,No,No selection,Good,430,36.6,Healthy,None,No
+252640842,Ray Lepore,47.310529612,-122.5282444899,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Poor,433,44.3,Branch Dieback or 'Flagging',huckleberry and sword fern,No
+252646090,,47.3167772831,-122.5402153584,Thuja plicata,western redcedar,5,No,No selection,Good,435,78.5,Healthy,None,No
+252654578,Ray Lepore,47.3105357727,-122.5286086836,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,434,37.5,Healthy,Sword Ferns,No
+254841389,,47.3080556546,-122.532009405,Thuja plicata,western redcedar,0,No,No selection,Good,935,14.9,Healthy,None,No
+254841726,,47.3080732123,-122.5322979686,Thuja plicata,western redcedar,0,No,No selection,Good,936,31.9,Healthy,Ferns and Salal,No
+254841895,,47.3083440711,-122.5323185288,Thuja plicata,western redcedar,0,No,No selection,Good,729,16,Healthy,Salal and fern,No
+254842328,,47.3082929191,-122.5320132149,Thuja plicata,western redcedar,"",No,Other (please describe in Notes),Good,439,33,Healthy,"",No
+254842992,,47.3084362291,-122.5321976976,Thuja plicata,western redcedar,"",No,No selection,Good,440,30,Healthy,Holly and fern,No
+254843388,,47.308530414,-122.5319147336,Thuja plicata,western redcedar,0,No,No selection,Good,937,34.3,Healthy,Fern,No
+254843853,,47.3087205918,-122.5326008659,Thuja plicata,western redcedar,0,No,No selection,Good,938,38.1,Healthy,None,No
+254844048,,47.3087456794,-122.5324871739,Thuja plicata,western redcedar,0,No,No selection,Good,443,13.8,Healthy,None,No
+254844767,Ray Lepore,47.3093105623,-122.532785123,Thuja plicata,western redcedar,0,No,No selection,Fair,730,33.7,Other (please describe in Notes),Huckleberry,No
+254845110,,47.3091625987,-122.5327602841,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),No selection,444A,"",Healthy,Huckleberry,No
+254846082,Ray Lepore,47.3094056249,-122.5329012358,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,940,14.5,Thinning Canopy,Huckleberry,No
+254846315,,47.3097147631,-122.5329008052,Thuja plicata,western redcedar,0,No,No selection,Good,448,22.4,Healthy,Huckelberry,No
+254846485,,47.3094108344,-122.5328731772,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,635,5.1,Healthy,Debris,No
+254847925,,47.3096260768,-122.5329331934,Thuja plicata,western redcedar,0,No,No selection,Good,602,41.1,Healthy,"",No
+254848054,,47.3098935121,-122.5331130342,Thuja plicata,western redcedar,"",No,No selection,Good,450,27,Healthy,Huckleberry,No
+254848507,,47.3107018915,-122.5331110704,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,605,24.8,Healthy,"",No Selection
+254848821,Ray Lepore,47.3096564979,-122.5329021627,Thuja plicata,western redcedar,"",No,No selection,Good,449,18.9,Healthy,Huckleberry,No
+254849460,Ray Lepore,47.310128598,-122.5330264236,Thuja plicata,western redcedar,10,Yes,Other (please describe in Notes),Poor,450A,"",Other (please describe in Notes),Huckleberry,No
+254851381,,47.3093312452,-122.5328389361,Thuja plicata,western redcedar,0,No,No selection,Good,939,18.1,Healthy,"",No
+254858188,Ray Lepore,47.3103243558,-122.5332404146,Thuja plicata,western redcedar,10,No,Other (please describe in Notes),Poor,450B,"",Other (please describe in Notes),"Huckleberry, salal",No
+254858214,Ray Lepore,47.3106929431,-122.5331371744,Thuja plicata,western redcedar,15,No,No selection,Poor,451,8.6,Thinning Canopy,Huckleberry,No
+254869953,,47.3107084897,-122.5331373535,Thuja plicata,western redcedar,0,No,No selection,Good,604,14.1,Healthy,Debris,No
+255304097,,47.3131663354,-122.5295547151,Thuja plicata,western redcedar,0,No,No selection,Good,806,49.7,Healthy,Weatern swordferns,No
+255311399,,47.3122617023,-122.5285881335,Thuja plicata,western redcedar,0,No,No selection,Good,801,16.9,Healthy,Horsetail,No
+255312306,,47.3122486985,-122.5287559536,Thuja plicata,western redcedar,0,No,No selection,Good,300,16.7,Healthy,"Horsetail, swordfern, brackenfern, trailing blackberry",No
+255312833,Fig,47.3121116667,-122.5286116667,Thuja plicata,western redcedar,2,No,No selection,Good,802,27.5,Healthy,"moss, horsetail",No
+255313511,Fig,47.3121116667,-122.5286116667,Thuja plicata,western redcedar,1,No,No selection,Good,804,26.5,Healthy,"moss, horse tail",No
+255314171,Fig,47.3123133333,-122.5273883333,Thuja plicata,western redcedar,1,No,Other (please describe in Notes),Good,805,"",Healthy,ferns horse tail,No
+257156627,Ray Lepore,47.3061304396,-122.5185515443,Thuja plicata,western redcedar,10,No,Other (please describe in Notes),Fair,101,26.8,Thinning Canopy,None,No
+257171280,Ray Lepore,47.3061501628,-122.5185346226,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,103,8.9,Thinning Canopy,None,No
+258067110,,47.304091543,-122.5334598188,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),No selection,606,14.3,Healthy,None,No
+258067836,,47.3042792817,-122.5333229679,Thuja plicata,western redcedar,0,No,No selection,Good,452,31.5,Healthy,None,No
+258070794,,47.3038910422,-122.5327992233,Thuja plicata,western redcedar,0,No,No selection,Fair,453,41.5,Thinning Canopy,None,No
+258516171,Ray Lepore,47.3040071603,-122.5329944083,Thuja plicata,western redcedar,0,No,No selection,Good,454,33.3,Healthy,None,No
+258595396,,47.3044573507,-122.5243608659,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,901,7.4,Healthy,Sword fern,No
+258599407,,47.3083946217,-122.5234229676,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Good,902,45.7,Healthy,Oregon grape; sword fern; huckleberry,No
+258600069,,47.3039071207,-122.5240627811,Thuja plicata,western redcedar,0,No,No selection,Good,903,39.6,Healthy,Hemlock saplings; sword fern;,No
+258773859,Ray Lepore,47.3090034503,-122.5227666626,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,455,11.1,Healthy,None,No
+258777136,,47.3073493547,-122.5314137314,Thuja plicata,western redcedar,0,No,No selection,Good,904,8.1,Healthy,None,No
+258778489,,47.3060750943,-122.5313927832,Thuja plicata,western redcedar,0,No,No selection,Good,905,34.1,Healthy,Salal; ferns,Yes
+258785158,Ray Lepore,47.3061692831,-122.5314508721,Thuja plicata,western redcedar,0,,No selection,Good,87,45.4,Healthy,Salal and swordferns,
+259467813,,47.3055285579,-122.5306769262,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Poor,906,13.6,Other (please describe in Notes),"",No
+259469265,,47.3060261652,-122.5306727129,Thuja plicata,western redcedar,0,No,No selection,No selection,907,5,Healthy,"",No
+259470059,,47.306216211,-122.5305986766,Thuja plicata,western redcedar,0,No,No selection,Good,908,18.4,Healthy,Salal; Oregon grape,No
+259471900,,47.3086329398,-122.5309643035,Thuja plicata,western redcedar,"",No,No selection,Good,607,11.2,Healthy,Huckleberry,No
+260932588,Ray Lepore,47.3106536472,-122.5330696029,Thuja plicata,western redcedar,0,No,No selection,Fair,603,31,Other (please describe in Notes),Huckleberry,No
+260933248,,47.3108485502,-122.5332412452,Thuja plicata,western redcedar,0,No,No selection,Good,456,24,Healthy,Salal and evergreen huckleberry,No
+260933346,,47.3110016801,-122.5332698641,Thuja plicata,western redcedar,0,No,No selection,Good,457,23.7,Healthy,Huckleberry,No
+260933885,Ray Lepore,47.3109245379,-122.5334378428,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,458,16.3,Thinning Canopy,"Huckleberry, Oregon Grape",No
+260934642,,47.3111943937,-122.5336383187,Thuja plicata,western redcedar,.,No,No selection,Good,702,26,Healthy,Huckleberry,No
+260935004,,47.3111629268,-122.5330965005,Thuja plicata,western redcedar,0,No,No selection,Good,460,32,Healthy,"Sword fern, huckleberry, salal",No
+260936086,Ray Lepore,47.3108719196,-122.533254138,Thuja plicata,western redcedar,0,No,No selection,Good,459,26.9,Other (please describe in Notes),Huckleberry,No
+260936208,Ray Lepore,47.311124246,-122.5329846917,Thuja plicata,western redcedar,0,No,No selection,Good,457A,"",Healthy,Huckleberry,No
+260936548,,47.3116811037,-122.5325940988,Thuja plicata,western redcedar,0,No,No selection,Good,703B,"",Healthy,Huckleberry,No
+260937394,,47.3119679069,-122.5326177046,Thuja plicata,western redcedar,0,No,No selection,Good,703,14.3,Healthy,Sword fern and huckleberry,No
+260938069,,47.31219844,-122.5326461731,Thuja plicata,western redcedar,0,No,No selection,Good,463,10,Healthy,"Sword fern, huckleberry",No
+260939237,,47.3128748481,-122.532627876,Thuja plicata,western redcedar,0,No,No selection,Good,704,26.6,Healthy,Huckleberry,No
+260941302,Ray Lepore,47.3114057576,-122.5327962344,Thuja plicata,western redcedar,0,No,No selection,Good,461,32.9,Healthy,"Huckleberry, Oregon Grape",No
+260942510,Ray Lepore,47.3117223592,-122.5324199841,Thuja plicata,western redcedar,0,No,No selection,No selection,703A,"",Healthy,Huckleberry,No
+260942676,Ray Lepore,47.3112755973,-122.5327826145,Thuja plicata,western redcedar,0,No,No selection,Good,461A,"",Healthy,Salal,No
+260942719,Ray Lepore,47.312265895,-122.5323901145,Thuja plicata,western redcedar,0,No,No selection,Good,462,14.3,Other (please describe in Notes),Oregon Grape,No
+260942748,Ray Lepore,47.3121467893,-122.5329268733,Thuja plicata,western redcedar,"",No,No selection,Good,464,30,Healthy,"Sword ferns, huckleberry",No
+262311222,,47.3126692486,-122.5327864802,Thuja plicata,western redcedar,5,No,Mechanical damage or fire scars,Good,705,66,Healthy,Huckleberry and Oregon grape,No
+262312494,,47.3130654219,-122.532531798,Thuja plicata,western redcedar,0,No,No selection,Good,910,9.6,Healthy,Evergreen huckelberry,No
+262314969,,47.3139870372,-122.5327388245,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,909,43.4,Healthy,Huckelberry,No
+262315104,,47.313786752,-122.5328125263,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,608,27.6,Healthy,Huckleberry,No Selection
+262317694,,47.3143218454,-122.5325959771,Thuja plicata,western redcedar,0,No,No selection,Good,609,33.7,Healthy,Huckleberry,No
+262317812,,47.3147212448,-122.5329547243,Thuja plicata,western redcedar,0,No,No selection,Fair,912,33.5,Thinning Canopy,Ferns,No
+262318764,,47.3148458431,-122.5330913155,Thuja plicata,western redcedar,5,No,No selection,Good,706,24.6,Healthy,Sword fern,No
+262321495,,47.3154872311,-122.5336122476,Thuja plicata,western redcedar,5,No,No selection,Good,707,49,Healthy,Hackelberry,No
+262322415,Ray Lepore,47.3153115593,-122.5335493205,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,916,14.2,Healthy,"Salal, Sword fern",No
+262322707,,47.3154195488,-122.533704453,Thuja plicata,western redcedar,"",No Selection,No selection,Good,915,44.7,Healthy,Western Sword Ferns,No Selection
+262324234,,47.3153616813,-122.5336206734,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,917,35.5,Healthy,Huckelberry,No
+262325465,,47.3154780424,-122.5336547167,Thuja plicata,western redcedar,5,No,No selection,Good,708,9.4,Healthy,None,No
+263200221,,47.3156993047,-122.5341835575,Thuja plicata,western redcedar,0,No,No selection,Good,611,46.3,Healthy,"Sword fern, evergreen huckleberry",No
+263200487,,47.3157090945,-122.5340524083,Thuja plicata,western redcedar,0,No,No selection,Good,918,35.3,Healthy,Huckelberry and ferns,No
+263201001,,47.3157430037,-122.5341226921,Thuja plicata,western redcedar,0,No,No selection,Good,465,29.3,Healthy,"Sword fern, huckleberry",Yes
+263201066,,47.316134627,-122.5343065174,Thuja plicata,western redcedar,5,No,No selection,Good,709,41.1,Healthy,Huckleberry,No
+263201513,,47.3159893721,-122.5346226732,Thuja plicata,western redcedar,0,No,No selection,Good,612,52,Healthy,Huckleberry,No
+263202088,,47.316226006,-122.5344248502,Thuja plicata,western redcedar,0,No,No selection,Good,711,5.9,Healthy,Salal,No
+263202173,Kate Oliver,47.3162035198,-122.5346369485,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,466,25.9,Healthy,Salal,No
+263202850,,47.3162661971,-122.5347138734,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,919,46.7,Healthy,None,No
+263203370,Kate Oliver,47.3162739492,-122.5357050859,Thuja plicata,western redcedar,0,No,No selection,Good,467,53,Healthy,Sword fern and evergreen huckleberry,No
+263203573,,47.3164703266,-122.5360186346,Thuja plicata,western redcedar,0,No,No selection,Good,614,63,Healthy,None,No
+263204798,Kate Oliver,47.3165181626,-122.5363790531,Thuja plicata,western redcedar,0,No,No selection,Good,920,38,Healthy,Sword ferns,No
+263205133,,47.3164616951,-122.536445684,Thuja plicata,western redcedar,0,No,No selection,Good,616,67.3,Healthy,Huckleberry and fern,No
+263205356,,47.3165707935,-122.5359082591,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,613,29.5,Healthy,Sword fern,No
+263205943,Ray Lepore,47.316250144,-122.5369298487,Thuja plicata,western redcedar,0,No,No selection,Good,469,13.3,Healthy,"Sword ferns, huckleberry",No
+263206229,,47.3161865779,-122.5362691461,Thuja plicata,western redcedar,0,No,No selection,Good,615,51.5,Healthy,"Sword fern, huckleberry",No
+263206441,,47.3164675855,-122.5364446651,Thuja plicata,western redcedar,0,No,No selection,Good,617,67,Healthy,western swordfern,No
+263206958,,47.3156303418,-122.5367954374,Thuja plicata,western redcedar,0,No,No selection,Good,921,22.3,Healthy,"Salal, fern, evergreen Huckelberry",No
+263206973,,47.3160804019,-122.536616864,Thuja plicata,western redcedar,0,No,No selection,Good,713,39.0,Healthy,Sword fern,No
+263207152,Kate Oliver,47.3161074647,-122.5369362643,Thuja plicata,western redcedar,0,No,No selection,Good,470,10.5,Healthy,Sword ferns,No
+263208289,,47.3157468885,-122.5368937004,Thuja plicata,western redcedar,0,No,No selection,Good,924,41.1,Healthy,"Salad, hemlock, evergreen huckleberry, sword fern",No
+263208470,,47.316010633,-122.5368249428,Thuja plicata,western redcedar,5,No,Other (please describe in Notes),Good,710,32,Healthy,"Huckleberry, sword fern",No
+263208633,,47.3162579183,-122.5369651735,Thuja plicata,western redcedar,0,No,No selection,Good,618,47.2,Healthy,"Ferns, huckleberry",No
+263209174,,47.3159461115,-122.5370915919,Thuja plicata,western redcedar,0,No Selection,No selection,Fair,471,28.8,Healthy,Western Sword Fern,No Selection
+263219506,Ray Lepore,47.3161397206,-122.5368896447,Thuja plicata,western redcedar,0,No,No selection,Good,468,50.2,Healthy,"Sword ferns, huckleberry",No
+264018741,,47.3154704224,-122.537236786,Thuja plicata,western redcedar,0,No,No selection,Good,712,34,Healthy,Huckleberry,No
+264018836,,47.3158289894,-122.5371948209,Thuja plicata,western redcedar,0,No,No selection,Good,701,37,Healthy,Salal and sword fern,No
+264019758,,47.3154179251,-122.539039899,Thuja plicata,western redcedar,5,No,No selection,Good,610,40,Healthy,Salal and huckleberry,No
+264020659,Ray Lepore,47.3158856259,-122.5394639873,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,473,19.9,Healthy,Salal,No
+264020668,,47.3158537928,-122.5395536005,Thuja plicata,western redcedar,5,No,No selection,Good,714,38.5,Healthy,Salal and huckleberry,No
+264021742,,47.3155737105,-122.5381482723,Thuja plicata,western redcedar,0,No,No selection,Good,472,27.2,Healthy,salal evergreen huckleberry and Oregon grape,No
+264022330,,47.3169636781,-122.5405948161,Thuja plicata,western redcedar,0,No Selection,Other (please describe in Notes),Good,474,18.3,Healthy,Salal and sword fern,No Selection
+264022819,,47.3167138082,-122.5402607834,Thuja plicata,western redcedar,5,No,No selection,Good,621,25.5,Healthy,Huckleberry,No
+264023399,,47.3156063398,-122.5392345832,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,619,16.2,Healthy,Huckleberry and Salal,No Selection
+264023577,,47.3161707601,-122.5397048648,Thuja plicata,western redcedar,0,No,No selection,Good,620,43.2,Healthy,Fern,No
+264023687,,47.3171627236,-122.5405638996,Thuja plicata,western redcedar,0,No,No selection,Good,622,34.4,Healthy,Fern,No
+264023827,,47.3172786593,-122.5404902402,Thuja plicata,western redcedar,5,No,No selection,Good,715,18.9,Healthy,Salal,No
+264024276,Ray Lepore,47.3162828007,-122.5398156724,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,620A,"",Thinning Canopy,Mostly plant and tree debris,No
+264026864,,47.3174931513,-122.5410682957,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Fair,477,52.8,Thinning Canopy,Salal and evergreen huckleberry,No
+264031587,,47.3174060365,-122.5409883978,Thuja plicata,western redcedar,0,No,No selection,Good,623,50.8,Healthy,Huckleberry and Salal,No
+264031597,Ray Lepore,47.3171383958,-122.5405917285,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,476,31.7,Thinning Canopy,Huckleberry and salal,No
+264031598,,47.3178135976,-122.5416846981,Thuja plicata,western redcedar,0,No,No selection,Good,716,49,Healthy,Fern,Yes
+264033502,Ray Lepore,47.317549018,-122.541253586,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,478,52.8,Healthy,"Sword ferns, huckleberry",No
+264041797,,47.3171502075,-122.5407087438,Thuja plicata,western redcedar,0,No,No selection,Good,475,38.4,Healthy,sword fern salal and evergreen huckleberry,No
+264700136,,47.3044855366,-122.516393184,Thuja plicata,western redcedar,0,No,No selection,Good,717,48.2,Healthy,None,No
+264701681,Margaret Pratt,47.3044581682,-122.5160347317,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Good,718,46.4,Healthy,none,No
+264705969,,47.3030918968,-122.5189463263,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,719,20.2,Healthy,sword fern Oregon grape and other unidentified berry bush,No
+264707637,,47.3029008916,-122.519013757,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,479,13.9,Healthy,"Wax Myrtle, holly, blackberry",No
+264707712,,47.3028686353,-122.5190954967,Thuja plicata,western redcedar,0,No,Invasive plants present or growing on tree,Good,302,8.5,Other (please describe in Notes),"bull thistle, Himalayan blackberry, holly, cotoneaster",No
+264709476,,47.3027026731,-122.5191580705,Thuja plicata,western redcedar,0,No,No selection,Good,480,12.7,Healthy,"miscellaneous unidentifiable plants, stinking iris",No
+264710123,Margaret Pratt,47.3030083006,-122.5191344347,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,720,12.6,Healthy,"holly, oak",No
+264710406,,47.3027822023,-122.5190405432,Thuja plicata,western redcedar,0,No,No selection,Good,721,7.6,Healthy,unknown shrubs surrounding,No
+264711948,Margaret Pratt,47.302606129,-122.5191549229,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,481,14.4,Healthy,"wax myrtle, oregon grape, unknown tree near base",No
+264712094,,47.3033565603,-122.5190877073,Thuja plicata,western redcedar,3,No,No selection,Good,722,14,Healthy,None,No
+264712658,,47.3032843236,-122.5190990249,Thuja plicata,western redcedar,0,No,Invasive plants present or growing on tree,Good,482,10.2,Healthy,Oregon grape and Himalayan blackberry,No
+264714591,,47.3034675772,-122.5189638605,Thuja plicata,western redcedar,0,No,No selection,Good,483,13.3,Healthy,Wax myrtle,No
+264716226,,47.3035462852,-122.5190999172,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,484,11.8,Healthy,Himalayan blackberry evergreen huckleberry and waxed murtle,No
+264719317,Ray Lepore,47.3036538195,-122.5182445787,Thuja plicata,western redcedar,5,No,Other (please describe in Notes),Fair,486A,"",Other (please describe in Notes),None,No
+264719525,Ray Lepore,47.304804944,-122.5162317332,Thuja plicata,western redcedar,0,No,No selection,Good,488,42.1,Healthy,None,No
+264720455,,47.3034190662,-122.5180656961,Thuja plicata,western redcedar,0,Yes,Multiple factors (please describe in Notes),Good,723,51.1,Healthy,None,No
+264722310,Margaret Pratt,47.3035550959,-122.5190467616,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,485,17,Healthy,"wax myrtle, evergreen huckleberry, Himalayan blackberry",No
+264724031,Ray Lepore,47.3047994725,-122.516102544,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,489,51,Healthy,None,No
+264736052,,47.3034953253,-122.5181855155,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,486,33.6,Healthy,None,No
+264736500,,47.3046833959,-122.5162987871,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,487,37.7,Healthy,None,No
+266007644,Kate Oliver,47.3107446128,-122.5335898475,Thuja plicata,western redcedar,0,,No selection,Good,490,20.5,Healthy,Huckleberry and Salah,No
+266007937,,47.3106195911,-122.5338865466,Thuja plicata,western redcedar,0,No,No selection,Fair,625,19.3,Thinning Canopy,Salal and evergreen huckleberry,No
+266008277,,47.3110098184,-122.5343789706,Thuja plicata,western redcedar,3,No,"Insect damage on trunk (holes, frass, galleries, etc.)",Good,913,25.2,Healthy,Huckleberry,No
+266010725,Ray Lepore,47.3117973257,-122.53524252,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,627,23,Thinning Canopy,Huckleberry. Estimated tree diameter above.,No
+266012303,,47.3108732358,-122.5338475411,Thuja plicata,western redcedar,0,No,No selection,Fair,626,7,Thinning Canopy,Salal and evergreen huckleberry,No
+266012603,,47.3120493884,-122.5359562472,Thuja plicata,western redcedar,5,No,No selection,Good,628,46.2,Healthy,Salal and huckleberry,No
+266013746,,47.3123198122,-122.5363895853,Thuja plicata,western redcedar,0,No,No selection,Good,922,28,Healthy,Salal,No
+266015178,,47.3120015171,-122.5363092272,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,492,42,Healthy,"evergreen huckleberry sword fern, Oregon grape",No
+266015325,Kate Oliver,47.3118836308,-122.5359266443,Thuja plicata,western redcedar,0,No Selection,Other (please describe in Notes),Fair,491,57,Other (please describe in Notes),"Evergreen huckleberry, Sword Fern, Center decomposition with Salal growing within.",No
+266015337,,47.3129197473,-122.5379285307,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,923,10.3,Other (please describe in Notes),"Evergreen Huckelberry , Salal",No
+266017107,,47.3129506529,-122.5384256087,Thuja plicata,western redcedar,0,No,No selection,Fair,629,38.4,Healthy,"Evergreen Huckelberry, Salal",No
+266017449,,47.312585318,-122.5381638495,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,724,45.3,Healthy,Huckleberry,No
+266018659,Kate Oliver,47.3133680093,-122.5391155724,Thuja plicata,western redcedar,0,No Selection,No selection,Good,494,26.1,Healthy,Huckleberry,No
+266019060,,47.3132194411,-122.5385007633,Thuja plicata,western redcedar,0,No,No selection,Good,925,15.2,Healthy,Huckleberry and Salal,No
+266019156,,47.313248028,-122.5391197874,Thuja plicata,western redcedar,"",No,No selection,Good,725,25.8,Healthy,"Salah and huckleberry, trunk mostly covered",No
+266019448,,47.3131220653,-122.5390600782,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,495,14.8,Thinning Canopy,Sword fern and evergreen huckleberry,No
+266020004,Kate Oliver,47.3131770009,-122.5388478399,Thuja plicata,western redcedar,0,No Selection,No selection,Good,498,25.6,Healthy,Sword Ferns,No
+266020172,Kate Oliver,47.3133450101,-122.5392749169,Thuja plicata,western redcedar,0,No Selection,Other (please describe in Notes),Fair,927,30,Thinning Canopy,Sword Fern and moss,No
+266030786,,47.3135561151,-122.5392430273,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Fair,926,49.7,Thinning Canopy,Sword fern and Oregon grape,No
+266030914,Ray Lepore,47.312823283,-122.5378976126,Thuja plicata,western redcedar,0,No,No selection,Good,493,19.7,Healthy,Salal and huckleberry,No
+266034536,,47.3130577324,-122.5390681759,Thuja plicata,western redcedar,0,No,Invasive plants present or growing on tree,Good,630,24.6,Healthy,Huckleberry,No
+267086116,,47.3133666083,-122.5394570582,Thuja plicata,western redcedar,0,No,No selection,Good,624,15.7,Healthy,"Sword fern, evergreen huckleberry",No
+267086556,,47.3136514947,-122.5393858417,Thuja plicata,western redcedar,0,No,No selection,Good,912,41.8,Healthy,Salal and Huckelberry (evergreen),No
+267086646,,47.313386137,-122.5394076015,Thuja plicata,western redcedar,0,No Selection,Other (please describe in Notes),Good,631,15.2,Healthy,Ferns,No Selection
+267087166,,47.3138010831,-122.5399228549,Thuja plicata,western redcedar,0,No,No selection,Good,303,18.9,Healthy,Evergreen huckleberry and sword fern,No
+267088620,,47.3137804063,-122.5398686421,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,497,45,Healthy,Sword ferns,No
+267089237,Ray Lepore,47.3142984357,-122.5406798953,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,496,54.4,Other (please describe in Notes),"Huckleberry, sword ferns, Oregon grape",No
+267089350,,47.3140963826,-122.5405425706,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,726,42.7,Healthy,"Sword ferns, salal, huckleberry",No
+267089914,,47.3141070258,-122.5404819553,Thuja plicata,western redcedar,0,No,No selection,Good,632,25.3,Healthy,Sword fern,No
+267090382,,47.3135318137,-122.5404393458,Thuja plicata,western redcedar,0,No,No selection,Good,914,50.8,Healthy,Salal and huckleberry,No
+267090825,,47.3140934383,-122.5401919042,Thuja plicata,western redcedar,0,No,No selection,Good,928,46.6,Healthy,Evergreen Huckelberry and ferns,No
+267090899,,47.3139813521,-122.5409242189,Thuja plicata,western redcedar,0,No,No selection,Good,633,25.3,Healthy,Huckleberry,No
+267091770,,47.3142411625,-122.5407512136,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,304,58.6,Healthy,"Sword ferns, evergreen huckleberry, Oregon grape",No
+267091952,,47.3145441958,-122.5416428251,Thuja plicata,western redcedar,3,No,No selection,Good,634,11.5,Healthy,Sala,No
+267092704,Ray Lepore,47.3148361695,-122.5422413599,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,306,33.6,Healthy,"Huckleberry, sword ferns",No
+267092807,,47.3146214124,-122.5414732829,Thuja plicata,western redcedar,"",No,Other (please describe in Notes),Good,500,39.8,Healthy,"evergreen huckleberry, sword ferns",No
+267094525,,47.3144921684,-122.5416508607,Thuja plicata,western redcedar,0,No,No selection,Good,727,9.2,Healthy,Huckleberry,No
+267094861,,47.3151096815,-122.5425316036,Thuja plicata,western redcedar,0,No,No selection,Good,930,26.5,Healthy,Oregon Grape,No
+267099608,,47.3149159397,-122.542173998,Thuja plicata,western redcedar,0,No,No selection,Good,305,27.8,Healthy,"sword ferns, huckleberry, salal",No
+267103943,Ray Lepore,47.3150532307,-122.542262453,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,305A,"",Other (please describe in Notes),"Huckleberry, salal",No
+267104456,Ray Lepore,47.315174222,-122.5425804581,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,728,8.2,Other (please describe in Notes),Huckleberry,No
+267108635,,47.3054267591,-122.5164264567,Thuja plicata,western redcedar,0,No,No selection,Good,931,35.4,Healthy,None,No
+267109626,Ray Lepore,47.3054768567,-122.5164351622,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,932,23.2,Healthy,None,No Selection
+267109703,Ray Lepore,47.3053032348,-122.5164667767,Thuja plicata,western redcedar,0,Yes,No selection,Good,934,39.2,Healthy,None,No
+267130687,,47.3053328838,-122.5163848379,Thuja plicata,western redcedar,0,No,No selection,Good,933,31.3,Healthy,None,No
+267239325,,47.3145305436,-122.5415806199,Thuja plicata,western redcedar,0,No,No selection,Good,499,14.4,Healthy,"Evergreen huckleberry, sword fern",No
+267239332,,47.3149188633,-122.5423629417,Thuja plicata,western redcedar,0,No,"Inner stem decay (rot, hollow center, etc.)",Good,929,58.5,Healthy,Salal; evergreen huckleberry,No
+269502880,,47.3094692953,-122.5335204002,Thuja plicata,western redcedar,0,No,No selection,Good,941,27.4,Healthy,"",No
+269503005,Kate Oliver,47.3097276765,-122.5337292221,Thuja plicata,western redcedar,0,No,No selection,Good,942,20.4,Healthy,"Salal, Huckleberry",No
+269503404,,47.3100462342,-122.5336096245,Thuja plicata,western redcedar,5,No,No selection,Fair,731,18.3,Healthy,Sala and huckleberry,No
+269503511,,47.3097672072,-122.533616004,Thuja plicata,western redcedar,0,No,No selection,Good,943,19.8,Healthy,Salal,No
+269503829,Kate Oliver,47.3097539482,-122.5336515403,Thuja plicata,western redcedar,0,No,No selection,Good,944,18.6,Thinning Canopy,Evergreen Huckleberry,No Selection
+269503978,,47.3098306922,-122.5336177873,Thuja plicata,western redcedar,0,No,No selection,Good,945,14.0,Healthy,"Salal, evergreen huckleberry",No
+269506002,,47.3097812279,-122.5336934049,Thuja plicata,western redcedar,0,No,No selection,Good,637,20.2,Healthy,"Evergreen huckleberry, Oregon grape",No
+269508094,,47.3104689063,-122.5357508248,Thuja plicata,western redcedar,5,No,"Insect damage on trunk (holes, frass, galleries, etc.)",Good,732,43.8,Healthy,Sala and huckleberry,No
+269508996,,47.3098820337,-122.5365781353,Thuja plicata,western redcedar,0,No,No selection,Good,638,25.2,Healthy,"Evergreen huckleberry, Oregon grape",No
+269509533,Kate Oliver,47.3099412632,-122.536635956,Thuja plicata,western redcedar,0,No Selection,No selection,Fair,733,41.7,Healthy,Salal and huckleberry,No Selection
+269510183,Ray Lepore,47.3094780488,-122.5367787817,Thuja plicata,western redcedar,0,No,No selection,Good,735,21.4,Other (please describe in Notes),Salal,No
+269511307,,47.3094174051,-122.536589168,Thuja plicata,western redcedar,3,No,No selection,Good,734,11.8,Healthy,Sala,No
+269512057,,47.3094702065,-122.5367761395,Thuja plicata,western redcedar,0,No,No selection,Good,641,32.4,Healthy,Huckleberry,No
+269512639,,47.3093882119,-122.5371047006,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,947,35.3,Healthy,evergreen huckleberry,No
+269512868,,47.309546876,-122.5364358363,Thuja plicata,western redcedar,0,No,No selection,Good,946,21.7,Healthy,Evergreen Huckelberry,No
+269513185,,47.3092366103,-122.5370672231,Thuja plicata,western redcedar,0,No,No selection,Good,948,34.5,Healthy,None,No
+269514162,,47.3089509269,-122.5365349332,Thuja plicata,western redcedar,0,No,No selection,Good,642,32.9,Healthy,Huckleberry,No
+269514264,,47.3092018268,-122.5367915243,Thuja plicata,western redcedar,0,No,No selection,Good,949,29.7,Healthy,Ferns,No
+269515290,,47.3092714654,-122.5368871237,Thuja plicata,western redcedar,3,No,No selection,Good,737,14.1,Healthy,Huckleberry,No
+269515345,,47.3088516762,-122.5367327566,Thuja plicata,western redcedar,0,No,No selection,Good,950,22.2,Healthy,Salal,No
+269515351,Ray Lepore,47.3090586964,-122.536614428,Thuja plicata,western redcedar,0,No,No selection,Good,799,8.6,Healthy,None,No
+269515407,,47.3087073205,-122.5363216984,Thuja plicata,western redcedar,0,No,No selection,Good,644,14.5,Healthy,None,No
+269519010,Kate Oliver,47.3093622418,-122.5367228907,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,736,10.05,Healthy,Huckleberry,No Selection
+269520172,,47.3085814078,-122.5362875029,Thuja plicata,western redcedar,0,No,No selection,Good,951,12.7,Healthy,Huckelberry,No
+269521638,,47.3086386047,-122.536353662,Thuja plicata,western redcedar,0,No,No selection,Good,633,7.1,Healthy,Salal,No
+269524364,,47.3090911645,-122.5371847084,Thuja plicata,western redcedar,3,No,No selection,Good,438,41.3,Healthy,Sala,No
+269532828,,47.3097213732,-122.5366103009,Thuja plicata,western redcedar,0,No,"Inner stem decay (rot, hollow center, etc.)",Good,639,25.2,Healthy,"Evergreen huckleberry, salal",No
+269532859,,47.309451539,-122.5365009608,Thuja plicata,western redcedar,0,No,No selection,Good,640,13.4,Healthy,Evergreen huckleberry,No
+269810702,,47.3086838704,-122.5366386516,Thuja plicata,western redcedar,3,No,No selection,Good,739,33.5,Healthy,Sala,No
+271275823,Ray Lepore,47.3093473149,-122.5339435481,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,952,14.2,Healthy,None,Yes
+271276456,,47.3093530967,-122.5341865354,Thuja plicata,western redcedar,0,No,No selection,Good,999,20.9,Healthy,Evergreen Huckelberry,No
+271276860,,47.3094928904,-122.533693189,Thuja plicata,western redcedar,10,No,No selection,Fair,740,32,Thinning Canopy,Sala,No
+271280151,,47.3095410954,-122.5340167599,Thuja plicata,western redcedar,0,No,No selection,Good,997,31,Healthy,Evergreen Huckelberry and Salal,No
+271281194,,47.3094912098,-122.5340351941,Thuja plicata,western redcedar,0,No,No selection,Good,645,13,Healthy,Huckleberry,No
+271282365,,47.3082295777,-122.5347022675,Thuja plicata,western redcedar,0,No,No selection,Good,996,41.5,Healthy,Evergreen Huckelberry,No
+271282812,Ray Lepore,47.3092847731,-122.5341902858,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,998,20.3,Other (please describe in Notes),None,No
+271282862,,47.3079920235,-122.535364703,Thuja plicata,western redcedar,3,No,No selection,Good,741,38.1,Healthy,Sala,No
+271282962,,47.3093720831,-122.5339284463,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,307,19.6,Thinning Canopy,Evergreen huckleberry and salal,No
+271283391,,47.3095370541,-122.5340653793,Thuja plicata,western redcedar,0,No,No selection,Good,647,9.7,Healthy,Huckleberry,No
+271283737,,47.3079703661,-122.5348499088,Thuja plicata,western redcedar,0,No,No selection,Good,648,14.6,Healthy,None,No
+271284003,Ray Lepore,47.3079828862,-122.5350110312,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,742,17.2,Thinning Canopy,Sword fern,No
+271284584,,47.3081542049,-122.5351734228,Thuja plicata,western redcedar,0,No,No selection,Good,995,20.5,Healthy,None prevalent,No
+271284972,,47.3078109945,-122.5353487672,Thuja plicata,western redcedar,10,No,Other (please describe in Notes),Fair,743,17.6,Healthy,Sala and sword fern,No
+271285799,,47.3080295805,-122.5347763786,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,308,26.8,Thinning Canopy,Red huckleberry and Oregon grape,No
+271286711,,47.3093938994,-122.5341232773,Thuja plicata,western redcedar,0,No,No selection,Good,646,24.7,Healthy,Huckleberry,Yes
+271287345,,47.3079091955,-122.5351632528,Thuja plicata,western redcedar,0,No,No selection,Good,309,37.2,Healthy,Western starflower,No
+271288213,,47.3078167435,-122.5355608661,Thuja plicata,western redcedar,0,No,No selection,Good,745,19.9,Healthy,None,No
+271288301,Ray Lepore,47.3079311767,-122.5351598564,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,650,8.7,Thinning Canopy,"Sword fern, huckleberry",No
+271288792,,47.3079109099,-122.5352029776,Thuja plicata,western redcedar,0,No,No selection,Good,649,27.2,Healthy,Fern and Oregon grape,No
+271289125,,47.307911421,-122.5351918751,Thuja plicata,western redcedar,0,No,No selection,Good,651,30.1,Healthy,Fern,No
+271289132,Ray Lepore,47.3077132097,-122.5354367865,Thuja plicata,western redcedar,0,No,"Insect damage on trunk (holes, frass, galleries, etc.)",Fair,310,36.8,Other (please describe in Notes),None,No
+271289368,,47.307676392,-122.5351647839,Thuja plicata,western redcedar,0,Yes,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Poor,652,16.9,Thinning Canopy,Fern,No
+271289877,Ray Lepore,47.3079314583,-122.5353966648,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,311,8.2,Healthy,None,No
+271289947,Ray Lepore,47.3076328767,-122.5354427134,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,744,16.6,Healthy,None,Yes
+271290420,,47.3078685403,-122.535661941,Thuja plicata,western redcedar,0,No,No selection,Fair,747,7,Thinning Canopy,None,No
+271291093,,47.3077663369,-122.5350437127,Thuja plicata,western redcedar,0,No,No selection,Good,994,24.8,Healthy,None,No
+271291686,,47.3078757386,-122.5356704833,Thuja plicata,western redcedar,0,No,No selection,Good,312,36.9,Healthy,"Sword fern, salal, western starflower",No
+271291869,,47.3076628181,-122.5351768534,Thuja plicata,western redcedar,0,No,No selection,Good,653,14.5,Healthy,Salal,No
+271292115,,47.3076332646,-122.5351462752,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,993,20.7,Healthy,Ferns,No
+271292282,,47.3076171963,-122.5352624263,Thuja plicata,western redcedar,0,No,No selection,Good,652,32.8,Healthy,Huckleberry and fern,No
+271292696,,47.307700699,-122.5358294121,Thuja plicata,western redcedar,0,No,No selection,Good,655,26.2,Healthy,Huckleberry and Salal.,No
+271292881,Ray Lepore,47.3077256285,-122.5355387179,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,746,7.1,Healthy,Huckleberry,No
+271293430,,47.3075089684,-122.5352758636,Thuja plicata,western redcedar,10,No,No selection,Fair,749,8.2,Thinning Canopy,None,No
+271293440,,47.3076217705,-122.5353699217,Thuja plicata,western redcedar,0,No,No selection,Good,656,13.5,Healthy,Fern Salal,Yes
+271294879,Ray Lepore,47.30773206,-122.5357688764,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,315,7.1,Thinning Canopy,Starflowers,No
+271294971,,47.307425454,-122.5349468505,Thuja plicata,western redcedar,0,No,No selection,Fair,750,40,Thinning Canopy,None,No
+271312893,,47.3077094533,-122.5353429731,Thuja plicata,western redcedar,0,No,No selection,Good,992,7.8,Healthy,"Huckelberry, Salal , ferns",No
+271312988,,47.3076678621,-122.5357210548,Thuja plicata,western redcedar,0,No,No selection,Good,316,25,Healthy,None,No
+271313147,,47.3076359451,-122.5357313136,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Fair,991,17.1,Healthy,None,No
+271313308,,47.3074049268,-122.5350706009,Thuja plicata,western redcedar,0,No,No selection,Good,990,37,Healthy,"Huckelberry, ferns, star flowers",No
+271317314,Ray Lepore,47.3076134094,-122.535566115,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Fair,748,10,Healthy,None,No
+271317424,Ray Lepore,47.3075427903,-122.5353635081,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,317,41,Healthy,"Salal, huckleberry, holly",No
+271322153,,47.3077838786,-122.5356620711,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,313,10.2,Other (please describe in Notes),"Sword fern, Oregon grape, western starflower, and salal",No
+271322267,,47.3076245876,-122.5358212594,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,314,27.8,Thinning Canopy,Evergreen huckleberry and Oregon grape,Yes
+271330465,Ray Lepore,47.3073271524,-122.5352548363,Thuja plicata,western redcedar,0,No,No selection,Good,319,13.3,Healthy,"Sword fern, holly, starflower",No
+271346340,,47.3074761737,-122.5352845669,Thuja plicata,western redcedar,0,No,No selection,Good,657,6.7,Healthy,Ground cover?,No
+272512571,,47.3116088116,-122.5364206892,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,989,48.1,Healthy,", salal, evergreen huckleberry, sword ferns, downed limbs, smaller trees",No
+272513249,,47.3118832506,-122.5369967104,Thuja plicata,western redcedar,"",No,No selection,Good,752,20.7,Healthy,"",No
+272514085,,47.3119776246,-122.5367047159,Thuja plicata,western redcedar,0,No,No selection,Good,320,42.1,Healthy,"Bracken fern, salal, western starflower, and evergreen huckleberry",No
+272514790,,47.3121860045,-122.537071323,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Fair,988,43.8,Healthy,"Salal , ferns",No
+272515499,,47.3121504967,-122.5373088992,Thuja plicata,western redcedar,0,Yes,No selection,Fair,318,46.9,Healthy,"Oregon grape, evergreen huckleberry, bracken fern",No
+272517822,,47.3121142765,-122.5375444256,Thuja plicata,western redcedar,"",No,No selection,Good,753,13.4,Healthy,Sword Fern,No
+272518446,Ray Lepore,47.3117361531,-122.5366418402,Thuja plicata,western redcedar,0,No,No selection,Good,751,23.8,Other (please describe in Notes),"Salal, Bracken Ferns, Oregon Grape",No
+272519131,Ray Lepore,47.312125658,-122.5378676438,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,754A,"",Thinning Canopy,None,No
+272520027,,47.3121500316,-122.5376991892,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,987,33.8,Healthy,Evergreen Huckelberry and ferns,No
+272522113,,47.3120394634,-122.5381462236,Thuja plicata,western redcedar,0,No,No selection,Good,986,24,Healthy,"Huckelberry, Salal , fern",No
+272522388,,47.3121086112,-122.5383012183,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,322,23,Healthy,Evergreen huckleberry and western starflower,No
+272522665,,47.3122540546,-122.5379358936,Thuja plicata,western redcedar,5,No,No selection,Good,754,15.3,Healthy,None,No
+272522754,,47.3125432593,-122.5383422829,Thuja plicata,western redcedar,0,No,No selection,Good,755,31,Healthy,"Oregon grape, evergreen huckleberry",No
+272523303,,47.3121585242,-122.5380918611,Thuja plicata,western redcedar,25,No,Other (please describe in Notes),Poor,756,7.4,Other (please describe in Notes),Sword Fern,No
+272525003,,47.3121024547,-122.5383879285,Thuja plicata,western redcedar,0,No,No selection,Good,985,6.7,Healthy,"Fern, western star flower",No
+272527857,,47.3120841312,-122.5384859777,Thuja plicata,western redcedar,0,No,No selection,Good,323,19.2,Healthy,Evergreen huckleberry and western starflower,No
+272528936,,47.3122321224,-122.5383672551,Thuja plicata,western redcedar,5,No,No selection,Good,759,27.7,Healthy,Salal,No
+272544592,,47.3120313881,-122.5386704887,Thuja plicata,western redcedar,0,No,No selection,Good,984,22.6,Healthy,"Western Star flowers, Salal",No
+272556556,,47.3121490035,-122.5385990181,Thuja plicata,western redcedar,"",No,No selection,Good,758,26.5,Healthy,"Evergreen huckleberry, sword fern",No
+272556662,,47.3119816128,-122.5387595253,Thuja plicata,western redcedar,"",No,No selection,Good,325,24.3,Healthy,"Oregon grape, evergreen huckleberry",No
+272556959,Ray Lepore,47.3120694699,-122.5379035659,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),No selection,754B,"",Other (please describe in Notes),Evergreen huckleberry,No
+272557050,Ray Lepore,47.3121826751,-122.5383005305,Thuja plicata,western redcedar,"",No,No selection,Good,757,12.6,Healthy,Evergreen huckleberry,No
+272557127,Ray Lepore,47.3126761031,-122.5382765219,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Poor,324,46.4,Other (please describe in Notes),"Evergreen huckleberry, Oregon grape",No
+272557557,,47.3117977791,-122.5388128066,Thuja plicata,western redcedar,0,No,No selection,Good,327,22.8,Healthy,"Salal, evergreen huckleberry, and bracken fern",No
+272563468,Ray Lepore,47.3118893808,-122.5387281188,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,326,24.2,Thinning Canopy,None,No
+272603215,,47.3120506172,-122.5387499188,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,761,17.7,Other (please describe in Notes),Salal,No
+273440938,Ray Lepore,47.3152120288,-122.5430292142,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,329,26.8,Thinning Canopy,"Evergreen huckleberry, sword fern, salal",No
+273453395,Kate Oliver,47.3152368513,-122.5430412594,Thuja plicata,western redcedar,0,No Selection,No selection,Good,328,46.1,Healthy,Salal and Evergreen Huckleberry,No Selection
+277113030,,47.3103695117,-122.5338764233,Thuja plicata,western redcedar,0,No,No selection,Good,331,21.5,Healthy,Evergreen huckleberry,No
+277113418,Ray Lepore,47.3103174831,-122.5338164147,Thuja plicata,western redcedar,0,No,No selection,Good,330,17.8,Healthy,Evergreen huckleberry,No
+277113541,Kate Oliver,47.3100905906,-122.5338007036,Thuja plicata,western redcedar,0,No Selection,No selection,Good,658,41.8,Healthy,Huckleberry and Salal,No Selection
+277113586,,47.3103257779,-122.5336332098,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,762,9.5,Healthy,Huckleberry,No
+277118690,Kate Oliver,47.3104633846,-122.5343406192,Thuja plicata,western redcedar,0,No Selection,No selection,Fair,332,18.3,Thinning Canopy,Salal and huckleberry,No Selection
+277123967,,47.3105276782,-122.5340329603,Thuja plicata,western redcedar,0,No,No selection,Good,764,10.9,Healthy,Sala and huckleberry,No
+277125120,Ray Lepore,47.3104332484,-122.5337429319,Thuja plicata,western redcedar,0,No,No selection,Good,763,11,Healthy,Evergreen huckleberry,No
+277126949,,47.3125545817,-122.5384074184,Thuja plicata,western redcedar,0,No,No selection,Good,760,41.9,Healthy,Huckleberry,No
+277129405,,47.3099740216,-122.5336766329,Thuja plicata,western redcedar,20,No Selection,No selection,Poor,658A,0,Healthy,Not known,Not Sure
+277134948,Kate Oliver,47.3154066764,-122.54320186,Thuja plicata,western redcedar,0,No Selection,No selection,Good,334,29,Healthy,"Huckleberry, Star flower, salal, possible baby cedar behind main tree",No Selection
+277136417,,47.3152971802,-122.5431216588,Thuja plicata,western redcedar,"",No,No selection,Good,765,38.7,Healthy,Sala and huckleberry,Yes
+277136688,,47.3104695411,-122.5339744403,Thuja plicata,western redcedar,10,No,Multiple factors (please describe in Notes),Poor,763A,"",Dead Top,Salal and evergreen huckleberry,No
+277137663,,47.3123079974,-122.5389794346,Thuja plicata,western redcedar,0,No,No selection,Good,659,34.2,Healthy,Salal,No
+277138771,Ray Lepore,47.3157375549,-122.5435591102,Thuja plicata,western redcedar,0,No,No selection,Good,766,8.6,Healthy,Evergreen huckleberry,No
+277141648,,47.3158488031,-122.5441950156,Thuja plicata,western redcedar,"",No,No selection,Good,768,28.7,Healthy,Huckleberry,No
+277143384,,47.3153082373,-122.543067641,Thuja plicata,western redcedar,"",No,No selection,Good,660,31.2,Healthy,Salal,Yes
+277144021,,47.3159368576,-122.5439731862,Thuja plicata,western redcedar,0,No,No selection,Good,336,44,Healthy,"Salal, evergreen huckleberry, Oregon grape, and western starflower",No
+277144879,,47.3160314081,-122.5438746098,Thuja plicata,western redcedar,0,No,"Inner stem decay (rot, hollow center, etc.)",Good,661,27.5,Healthy,Huckleberry,No
+277148768,,47.3161233909,-122.5445182111,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,662,40,Healthy,Nettles,No Selection
+277148884,,47.3161562644,-122.5443409467,Thuja plicata,western redcedar,0,No,No selection,Good,337A,0,Healthy,Huckleberry,No
+277149660,,47.3156830724,-122.543593507,Thuja plicata,western redcedar,0,No,No selection,Good,335,9.2,Healthy,Sword fern and bracken fern,No
+277149956,,47.3159897917,-122.5445097281,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,337,30.8,Healthy,"Salal, evergreen huckleberry, and sword fern",No
+277152045,,47.3169351224,-122.5467613755,Thuja plicata,western redcedar,0,No,No selection,Good,663,20.7,Healthy,Huckleberry,No
+277174395,Ray Lepore,47.315736468,-122.5440112873,Thuja plicata,western redcedar,0,No,No selection,Fair,333,48.7,Thinning Canopy,"Sword ferns, evergreen huckleberry, horse chestnut sapling",No
+277174554,Ray Lepore,47.3160462828,-122.5446297128,Thuja plicata,western redcedar,0,No,No selection,Good,767,26.4,Healthy,Sword fern,No
+277174709,Ray Lepore,47.3161453565,-122.5447193201,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),No selection,767A,"",Healthy,"Evergreen huckleberry, salal, sword ferns",No
+277176984,,47.3168501379,-122.5466026904,Thuja plicata,western redcedar,0,No,No selection,Good,338,25.9,Healthy,"sword fern, pacific sanicle, and American trail plant",No
+277418418,,47.3028608831,-122.5280610939,Thuja plicata,western redcedar,0,No,No selection,Good,203,29,Healthy,Brackenfern,No
+277448271,,47.3022525665,-122.5265178179,Thuja plicata,western redcedar,3,No,No selection,Fair,808,17.2,Healthy,Brackenfern,No
+278511990,,47.3098083372,-122.5367775481,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,340,6.3,Healthy,"salal, western starflower, Oregon grape, and sword fern",No
+278518272,Ray Lepore,47.3101315232,-122.5375374662,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,342,"",Other (please describe in Notes),"Bracken fern, salal, evergreen huckleberry",No
+278520988,,47.31006889,-122.5375267345,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,343,30.5,Healthy,"salal, western starflower, Oregon grape, mountain sweet Cicely, and trailing blackberry",Yes
+278526943,Ray Lepore,47.3102937692,-122.537574358,Thuja plicata,western redcedar,0,No,No selection,Fair,344,33.5,Thinning Canopy,Bracken and sword ferns,Yes
+278527671,,47.3101230713,-122.5376403615,Thuja plicata,western redcedar,0,No,No selection,Good,349,8.8,Healthy,"western starflower, Oregon grape, and bracken fern",No
+278527954,,47.3101915852,-122.5377182788,Thuja plicata,western redcedar,0,No,No selection,Good,350,18.8,Healthy,Stinging nettle,No
+278530203,,47.3099887823,-122.5378009859,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,356,31.3,Healthy,"salal, Oregon grape, and evergreen huckleberry",No
+278540533,Ray Lepore,47.3103271142,-122.5375634802,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,351,9.5,Healthy,"Sword fern, evergreen huckleberry",No
+278575664,Margaret Pratt,47.3099496682,-122.5370125474,Thuja plicata,western redcedar,"",No,Other (please describe in Notes),Good,339,6.8,Healthy,"salal, bracken fern; ocean spray next to it;",No
+278575881,Margaret Pratt,47.3100894364,-122.5371659362,Thuja plicata,western redcedar,"",No,No selection,Good,341,29.6,Branch Dieback or 'Flagging',"moutain sweet cicely, sword fern, bracken fern, western star flower, evergreen huckleberry",No
+278576101,Margaret Pratt,47.3099809233,-122.5374046417,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,348,21,Healthy,"sword fern, huckleberry, salal",No
+278576209,,47.3140609926,-122.5385761307,Thuja plicata,western redcedar,0,No,No selection,Good,357,8.1,Healthy,"evergreen huckleberry, salal, and sword fern",No
+278576643,Margaret Pratt,47.3102381231,-122.5375514882,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,347,38.3,Thinning Canopy,"sword fern, bracken fern, salal, evergreen huckleberry",No
+278577159,Margaret Pratt,47.3102502068,-122.5377357277,Thuja plicata,western redcedar,0,No,No selection,Good,345,30.1,Healthy,sword fern,No
+278577487,Margaret Pratt,47.3139969926,-122.5388878696,Thuja plicata,western redcedar,10,No,Other (please describe in Notes),Good,354,24.5,Healthy,sword fern,No
+278578260,Margaret Pratt,47.31411976,-122.5389503629,Thuja plicata,western redcedar,0,No,No selection,Good,352,60.4,Healthy,"ferns, evergreen huckleberry, lots of vegetation",No
+278601076,Ray Lepore,47.3141146476,-122.5386799611,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,346,6.3,Healthy,"Sword fern, evergreen huckleberry",No
+278651300,Margaret Pratt,47.3144964085,-122.5389830687,Thuja plicata,western redcedar,0,No,No selection,Good,353,57.1,Branch Dieback or 'Flagging',"Lots of vegetation; evergreen huckleberry, oregon grape, sword fern, bracken fern, salal",Yes
+279304255,,47.3146547445,-122.5384145456,Thuja plicata,western redcedar,0,No,No selection,Good,358,17.4,Healthy,"Sword ferns, Himalayan blackberry",No
+279304924,,47.3143819692,-122.5385797845,Thuja plicata,western redcedar,0,No,No selection,Good,769,31,Healthy,Huckleberry and Salal,No
+279305206,,47.3143815216,-122.5389236101,Thuja plicata,western redcedar,0,No,No selection,Fair,664,40.2,Thinning Canopy,"Holly, Huckleberry",No
+279307373,,47.3145675052,-122.5387676153,Thuja plicata,western redcedar,0,No,No selection,Good,359,16.4,Healthy,"Sword fern, Himalayan blackberry, western star flower, bracken fern",No
+279307756,,47.3149135983,-122.5383135211,Thuja plicata,western redcedar,0,No,No selection,Good,360,28.3,Healthy,"salal, evergreen huckleberry, sword fern, and bracken fern",Yes
+279308659,Ray Lepore,47.315462492,-122.5380181994,Thuja plicata,western redcedar,0,No,No selection,Good,666,20.5,Healthy,"Evergreen huckleberry, sword ferns",No
+279312289,,47.3148101742,-122.5384049485,Thuja plicata,western redcedar,0,No,No selection,Good,355,48.6,Healthy,"evergreen huckleberry, bracken fern",No
+279312346,,47.3156585138,-122.5395175005,Thuja plicata,western redcedar,0,No,No selection,Good,770,"",Healthy,Hemlock and Salal,No
+279314972,Ray Lepore,47.3150742033,-122.5388606614,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Poor,771A,"",Other (please describe in Notes),Evergreen huckleberry,No
+279330339,,47.3147066526,-122.5389190948,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,362,24.4,Healthy,Sword fern and evergreen huckleberry,No
+279340923,Ray Lepore,47.314678338,-122.5389930868,Thuja plicata,western redcedar,0,Yes,No selection,Fair,361,27,Thinning Canopy,"Evergreen huckleberry, sword ferns",No
+279510879,,47.3150636737,-122.5390489509,Thuja plicata,western redcedar,0,No,No selection,Good,771,61.5,Healthy,"sword fern, evergreen huckleberry, salal",No
+280588286,Fig,47.30308,-122.5279533333,Thuja plicata,western redcedar,0,No,No selection,Good,202,23,Healthy,salal,No
+280588473,Fig,47.302505,-122.528245,Thuja plicata,western redcedar,1,No,Evidence of soil compaction,Good,807,29.7,Healthy,salal,No
+280588602,Fig,47.3023133333,-122.5263366667,Thuja plicata,western redcedar,5,No,No selection,Fair,809,31.9,Branch Dieback or 'Flagging',huckleberry,Yes
+281094036,,47.3154291639,-122.5381532698,Thuja plicata,western redcedar,0,No,No selection,Good,665,24.1,Healthy,Fern,No
+281104445,,47.3175864111,-122.5433691503,Thuja plicata,western redcedar,0,No,No selection,Good,712,60.3,Healthy,Fern,No
+281104500,,47.317453793,-122.5430526986,Thuja plicata,western redcedar,0,No,No selection,Good,773,64.3,Healthy,Holly and sworn fern,No
+281104546,,47.3173772271,-122.54305576,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,363,35.6,Healthy,"Sword fern, invasive holly (pulled out visible), trailing blackberry, and salal",No
+281106315,Margaret Pratt,47.317581184,-122.5435954947,Thuja plicata,western redcedar,0,No Selection,No selection,Good,364,46.7,Healthy,"sword fern, bracken fern, oregon grape",No Selection
+281108220,,47.31690305,-122.5438410338,Thuja plicata,western redcedar,0,No,No selection,Good,365,48.2,Healthy,Sword fern,No
+281109224,,47.3169967085,-122.5436805462,Thuja plicata,western redcedar,0,No,No selection,Good,668,36.3,Healthy,Sworn fern and stinging nettle,No
+281109851,,47.3171197269,-122.5440766066,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,669,23.4,Healthy,Huckleberry and fern,No
+281109895,Ray Lepore,47.3171760566,-122.5441550161,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,670,46.3,Healthy,"Evergreen huckleberry, bracken and sword ferns",No
+281111970,,47.3164124539,-122.5443059689,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,774,68.5,Healthy,Sword ferns,No
+281114148,,47.3162976919,-122.54437774,Thuja plicata,western redcedar,0,No,No selection,Fair,369,7.2,Branch Dieback or 'Flagging',Nettles; sword fern,No
+281115042,,47.3160258499,-122.5444889737,Thuja plicata,western redcedar,0,No,No selection,Good,775,9.5,Healthy,Sworn fern,No
+281129643,Ray Lepore,47.316424466,-122.5442686933,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),No selection,368,"",Healthy,"Nettles, bracken and sword ferns",No
+281132755,Margaret Pratt,47.3170460511,-122.5438393207,Thuja plicata,western redcedar,0,No Selection,No selection,Good,366,54.8,Healthy,"sword fern, evergreen huckleberry; oregon grape",No Selection
+281133109,Margaret Pratt,47.3165459421,-122.5439413967,Thuja plicata,western redcedar,0,No Selection,No selection,Good,671,57.3,Healthy,"sword fern, evergreen huckleberry",No Selection
+281133751,,47.3164868979,-122.5439644534,Thuja plicata,western redcedar,0,No,No selection,Good,367,57.1,Healthy,Sword fern,No
+286870816,,47.3114083032,-122.5334054364,Thuja plicata,western redcedar,85,No,"Inner stem decay (rot, hollow center, etc.)",Poor,531,44.9,Healthy,Salal and evergreen huckleberry,No
+286874958,Ray Lepore,47.3130901567,-122.5333524137,Thuja plicata,western redcedar,0,No,No selection,Good,533,28.7,Healthy,"Evergreen huckleberry, sword fern",No
+286876086,Kate Oliver,47.3129414144,-122.5333095275,Thuja plicata,western redcedar,0,No,No selection,Good,532,22.5,Healthy,Huckleberry and Sword Fern,Yes
+286881580,,47.3114856074,-122.5343227755,Thuja plicata,western redcedar,0,No,No selection,Fair,983,31.2,Healthy,Huckelberry and Salal,No
+286882820,,47.3166150332,-122.5353839389,Thuja plicata,western redcedar,0,No,No selection,Good,981,7.9,Healthy,"Salal, evergreen Huckelberry, bracken and sword ferns",No
+286884669,,47.3165812173,-122.5356432558,Thuja plicata,western redcedar,10,No,Other (please describe in Notes),Fair,535,79.3,Healthy,"salal, tons of nettle, catchweed bedstraw, trailing blackberry, and bracken fern",No
+286974733,,47.3114121435,-122.5342644572,Thuja plicata,western redcedar,90,Maybe,Multiple factors (please describe in Notes),Poor,672,43.3,Other (please describe in Notes),Huckleberry and Salal,No
+286974784,,47.3129183185,-122.5332136525,Thuja plicata,western redcedar,0,No Selection,Other (please describe in Notes),Good,982,6.1,Healthy,Huckleberry,No Selection
+287057838,Ray Lepore,47.3166850125,-122.5355203668,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,514,"",Other (please describe in Notes),"Ferns, salal, young hazelnuts",No
+288831230,,47.3040869975,-122.5338864157,Thuja plicata,western redcedar,0,No,No selection,Good,673,18,Healthy,Salal,No
+288832425,,47.3040604809,-122.5338577471,Thuja plicata,western redcedar,0,No,No selection,Fair,674,13.4,Thinning Canopy,None,No
+288836318,,47.3042174347,-122.5337922298,Thuja plicata,western redcedar,30,No,Other (please describe in Notes),Fair,370,39.2,Dead Top,Salal and evergreen huckleberry,No
+288836778,,47.3052829394,-122.5346068908,Thuja plicata,western redcedar,"",No,No selection,Good,371,30.2,Healthy,Salal,No
+288837796,,47.3053785612,-122.5343810121,Thuja plicata,western redcedar,"",No,No selection,Good,675,8.6,Healthy,None,No
+288838206,,47.3053737255,-122.5344426923,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,372,33.1,Healthy,Bracken fern,Yes
+288840210,,47.3054010236,-122.5344162009,Thuja plicata,western redcedar,0,No,No selection,No selection,676,24.8,Healthy,"Fern, huckleberry",Yes
+288841667,,47.3054338167,-122.5344604053,Thuja plicata,western redcedar,0,No,No selection,Good,677,5.4,Healthy,Huckleberry,No
+288841931,,47.3052777015,-122.5345837993,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,373,7.3,Thinning Canopy,Evergreen huckleberry,No
+288842745,,47.30549086,-122.534425199,Thuja plicata,western redcedar,0,No,No selection,Good,678,30.5,Healthy,"Huckleberry, Salal",No
+288848356,,47.3056148749,-122.5344370292,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,374,14.3,Healthy,"Western starflower, evergreen huckleberry, and invasive holly",Yes
+288849180,,47.3059968613,-122.5350675637,Thuja plicata,western redcedar,0,No,No selection,Good,680,6.1,Healthy,Baby cedars and fern,Yes
+288849326,,47.305464891,-122.5343378098,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,375,35.8,Healthy,"Evergreen huckleberry, western starflower, and bracken fern",No
+288849525,,47.3055823561,-122.5345219085,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,679,27.3,Healthy,Salal and western starflower,No
+288850684,,47.3060209616,-122.5350384001,Thuja plicata,western redcedar,0,No Selection,No selection,No selection,681,36.5,Healthy,Fern  and Salal,No Selection
+288851974,,47.3060149693,-122.5351675592,Thuja plicata,western redcedar,0,No,No selection,Good,682,18,Healthy,None,No
+288866532,,47.3059682847,-122.5351826599,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,376,19.5,Healthy,Evergreen huckleberry,No
+288866631,,47.3059610628,-122.5351232679,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,377,11.6,Healthy,Evergreen huckleberry,No
+288866791,,47.3061174019,-122.5351872766,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,378,17.3,Healthy,No vegetation visible,No
+290742581,,47.30745734,-122.536421988,Thuja plicata,western redcedar,0,No,No selection,Good,776,7.7,Healthy,Huckleberry and fern,No
+290745479,,47.309346481,-122.5386389638,Thuja plicata,western redcedar,0,No,No selection,Good,379,29.8,Healthy,Salal and bracken fern,No
+290747571,,47.3098449183,-122.5390727125,Thuja plicata,western redcedar,0,No,No selection,Good,980,25.7,Healthy,None,Yes
+290748362,Ray Lepore,47.3100786722,-122.5389468478,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,534,31.8,Healthy,Evergreen huckleberry,No
+290748998,,47.3100432703,-122.5390466132,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Good,684,38.8,Healthy,Fern,Yes
+290749900,,47.3101648666,-122.5389057095,Thuja plicata,western redcedar,0,No,No selection,Good,979,32.1,Healthy,Ferns,No
+290750534,,47.3101062466,-122.5390842794,Thuja plicata,western redcedar,0,No,No selection,Good,685,6.4,Healthy,Fern,Yes
+290754138,,47.3105141664,-122.5394757911,Thuja plicata,western redcedar,25,No,No selection,Poor,777,18.6,Healthy,Western Sisley Bractern fern and stinking bob,No
+290755271,,47.3109025059,-122.5393422205,Thuja plicata,western redcedar,0,No,No selection,Good,686,12.4,Healthy,"",Yes
+290755568,,47.3107650723,-122.5392873317,Thuja plicata,western redcedar,0,No,No selection,Good,978,8.2,Healthy,"Ferns, Holly",No
+290756402,,47.3108705127,-122.5394162942,Thuja plicata,western redcedar,0,No,No selection,Good,687,6.6,Healthy,Fern,Yes
+290757003,,47.3107697797,-122.5392401811,Thuja plicata,western redcedar,0,No,No selection,Good,977,14.9,Healthy,Holly and ferns,No
+290757787,,47.3108264204,-122.5394630391,Thuja plicata,western redcedar,0,No,No selection,Good,688,7.9,Healthy,Fern,Yes
+290758652,,47.3104928111,-122.5392946681,Thuja plicata,western redcedar,0,No,No selection,Good,976,13.4,Healthy,None directly under this tree. Other two in “pod” have understory,No
+290759652,,47.3109160137,-122.5394913752,Thuja plicata,western redcedar,0,No,No selection,Good,689,12.9,Healthy,Baby cedar,Yes
+290759999,Ray Lepore,47.311025942,-122.5390561235,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,546,90.2,Thinning Canopy,Evergreen huckleberry and sword ferns,No
+290764088,,47.31135574,-122.5400878281,Thuja plicata,western redcedar,0,No,No selection,Good,690,6.7,Healthy,"Salal, fern",Yes
+290764369,,47.3100354212,-122.5389633385,Thuja plicata,western redcedar,0,No,No selection,Good,683,25.2,Healthy,Sword fern and evergreen huckleberry,Yes
+290764691,,47.3108571735,-122.5390909499,Thuja plicata,western redcedar,0,No,No selection,Good,380,65.2,Healthy,Sword fern and evergreen huckleberry,No
+290765229,,47.3110674994,-122.5405398449,Thuja plicata,western redcedar,"",No,No selection,Good,778,6,Healthy,Sala,No
+290765586,,47.3114393678,-122.5402259652,Thuja plicata,western redcedar,0,No,No selection,Good,975,40.3,Healthy,Evergreen Huckelberry,No
+290765644,Ray Lepore,47.3109113748,-122.5392674044,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Fair,537,69,Healthy,Evergreen huckleberry,No
+290766037,Ray Lepore,47.3110816804,-122.5402351843,Thuja plicata,western redcedar,0,No,No selection,Good,538,7.5,Healthy,None,No
+290766476,,47.3115361635,-122.539948993,Thuja plicata,western redcedar,0,No,No selection,Good,691,10.1,Healthy,Fern,Yes
+290766805,Ray Lepore,47.3115006355,-122.5404135235,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,539,38.1,Healthy,Evergreen huckleberry,No
+290767239,,47.3114073409,-122.5403648558,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,381,59.5,Healthy,Salal and bracken fern,Yes
+290767969,,47.3114503397,-122.539958541,Thuja plicata,western redcedar,0,No,No selection,Good,974,22.4,Healthy,Ferns,No
+290768230,,47.3115587024,-122.540006024,Thuja plicata,western redcedar,0,No,No selection,Good,692,8.8,Healthy,Fern,Yes
+290769767,,47.3115635187,-122.5400167162,Thuja plicata,western redcedar,0,No,No selection,Good,973,6.3,Healthy,Ferns,Yes
+290773001,Ray Lepore,47.3116798868,-122.5400371866,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,540,29.9,Healthy,"Evergreen huckleberry, sword ferns",No
+290793485,,47.3114789211,-122.5402687453,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,382,6.4,Healthy,Sword fern and evergreen huckleberry,Yes
+290793505,,47.3116583331,-122.5397518004,Thuja plicata,western redcedar,0,No,No selection,Good,383,36.1,Healthy,Sword fern and evergreen huckleberry,Yes
+292696621,,47.3120256379,-122.540374269,Thuja plicata,western redcedar,0,No,No selection,Good,693,44.7,Healthy,Huckleberry,No
+292697490,Ray Lepore,47.3118972034,-122.5400597044,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,541,15.9,Healthy,Sword ferns,No
+292698966,,47.3120203095,-122.5402736669,Thuja plicata,western redcedar,0,No,No selection,Good,780,55.6,Healthy,Sword Fern,No
+292699540,Libby Lindstrom,47.311922753,-122.5401827728,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Good,542,36.4,Thinning Canopy,Sword ferns,No
+292700587,,47.3121926063,-122.5403061287,Thuja plicata,western redcedar,0,No,No selection,Good,694,44.3,Healthy,"None, with debris at base of tree",No
+292701846,,47.3123250889,-122.5401725333,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,695,7.5,Healthy,Sword Ferns,No
+292703544,,47.3121713799,-122.5407559431,Thuja plicata,western redcedar,0,No,No selection,Good,783,17.4,Healthy,None,No
+292703793,Libby Lindstrom,47.3119742789,-122.5404078743,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,543,39.3,Healthy,Huckleberry sword ferns,No
+292704320,,47.3122269148,-122.5409468397,Thuja plicata,western redcedar,0,No,No selection,Good,696,29.1,Healthy,Fern,Yes
+292705995,,47.312095032,-122.5406970564,Thuja plicata,western redcedar,"",No,No selection,Good,782,17.4,Healthy,None,No
+292706930,,47.3120406362,-122.5406698953,Thuja plicata,western redcedar,0,No,No selection,Good,697,32.7,Healthy,"Huckleberry, fern",No
+292709217,Libby Lindstrom,47.3120808698,-122.5406113725,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,544,53.5,Other (please describe in Notes),"Sword fern bracken fern, Oregon grape, holly",No
+292709384,,47.3119234882,-122.5408395485,Thuja plicata,western redcedar,0,No,No selection,Good,781,38.2,Healthy,Huckleberry,No
+292709910,,47.3117970537,-122.540985905,Thuja plicata,western redcedar,0,No,No selection,Good,698,22,Healthy,Huckleberry,No
+292711722,Libby Lindstrom,47.311768729,-122.5406836885,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,546,50.5,Other (please describe in Notes),Huckleberry and Bracken fern,No
+292721296,Ray Lepore,47.3119713789,-122.5409601497,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,545,32.4,Healthy,"Evergreen huckleberry, sword ferns, salal",No
+292721329,Ray Lepore,47.3133181439,-122.5434868696,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,547,17.8,Healthy,Evergreen huckleberry,No
+294667883,,47.3138010634,-122.5430971017,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Fair,384,41,Thinning Canopy,"sword fern, evergreen huckleberry, invasive holly, and salal",No
+294670224,Ray Lepore,47.3141705367,-122.5435732712,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,549,10.9,Thinning Canopy,Evergreen huckleberry,No
+294671310,,47.3140850596,-122.5435143663,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,385,20.9,Other (please describe in Notes),evergreen huckleberry,No
+294671669,Ray Lepore,47.314119645,-122.543626682,Thuja plicata,western redcedar,0,No,No selection,Good,548,30.2,Healthy,"Evergreen huckleberry, sword ferns",No
+294673998,,47.3150348772,-122.543933211,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,386,11.8,Healthy,Evergreen huckleberry and sword fern,No
+294677029,Ray Lepore,47.3147354922,-122.5439493434,Thuja plicata,western redcedar,0,No,No selection,Fair,550,53.2,Thinning Canopy,Sword ferns,No
+294679237,Ray Lepore,47.3152665997,-122.544939222,Thuja plicata,western redcedar,0,No,No selection,Good,551,7.4,Healthy,"Evergreen huckleberry, sword ferns",No
+294679858,,47.3150109815,-122.5443620289,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,387,8.9,Thinning Canopy,Sword fern,No
+294680423,,47.3153556124,-122.5449930216,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,388,7.1,Healthy,"Sword fern, evergreen huckleberry, and salal",No
+294686937,Ray Lepore,47.3156129823,-122.5450563202,Thuja plicata,western redcedar,0,No,No selection,Good,552,7.6,Healthy,"Salal, sword ferns",Yes
+294687372,Ray Lepore,47.317338421,-122.5460657806,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,553,19.5,Healthy,"Evergreen huckleberry, sword ferns",No
+294702785,Ray Lepore,47.3178273254,-122.5452938037,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,554,40.3,Healthy,"Salal, bracken and sword ferns, holly",No
+294702919,Ray Lepore,47.3179183854,-122.5452127309,Thuja plicata,western redcedar,0,No,No selection,Good,555,8.9,Healthy,"Evergreen huckleberry, sword ferns, salal",No
+294703016,Ray Lepore,47.3179483251,-122.5450195112,Thuja plicata,western redcedar,0,No,No selection,Good,556,5.9,Healthy,"Evergreen huckleberry, sword ferns",Yes
+294713041,,47.3158835719,-122.5449869729,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,389,38.4,Healthy,Sword fern and Oregon grape,No
+294713185,,47.3178168999,-122.5451325773,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,390,36.3,Healthy,creeping snowberry,No
+296584209,Ray Lepore,47.3166617946,-122.5361510824,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,920A,"",Healthy,Salal and tree debris,No
+296585307,,47.3168046723,-122.5359849701,Thuja plicata,western redcedar,0,No,No selection,Good,779,52.7,Healthy,Huckleberry,No
+296585846,,47.3169706939,-122.5363512456,Thuja plicata,western redcedar,0,Yes,Other (please describe in Notes),Good,391,54.7,Healthy,Salal,No
+296587716,Ray Lepore,47.3172535258,-122.5363637164,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,557,32.4,Healthy,"Evergreen huckleberry, sword fern",No
+296587892,,47.3172629483,-122.5365710894,Thuja plicata,western redcedar,0,No,No selection,Good,784,46.3,Healthy,Sword fern,No
+296590631,,47.3172952165,-122.5369077147,Thuja plicata,western redcedar,0,No,No selection,Good,558,39.6,Healthy,Evergreen huckleberry,No
+296591537,,47.3173133733,-122.5370015886,Thuja plicata,western redcedar,0,No,No selection,Good,785,8.9,Healthy,Salal and sword fern,No
+296593981,Ray Lepore,47.3173220268,-122.537713447,Thuja plicata,western redcedar,0,No,No selection,Good,560,41,Other (please describe in Notes),Evergreen huckleberry,No
+296597296,,47.3166054234,-122.5377248219,Thuja plicata,western redcedar,0,No,"Inner stem decay (rot, hollow center, etc.)",Poor,561,51.2,Healthy,Evergreen huckleberry,No
+296598122,Kate Oliver,47.3166113334,-122.5378151439,Thuja plicata,western redcedar,0,No,No selection,Good,505,31,Healthy,Salah,No
+296600092,,47.3162089324,-122.5381760647,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Poor,786,58.0,Healthy,Evergreen huckleberry,No
+296603360,,47.3158509618,-122.5390732647,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,787,50.7,Healthy,None,No
+296619598,Ray Lepore,47.3171185842,-122.5376836025,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),No selection,559A,"",Healthy,"Evergreen huckleberry, sword fern",No
+296620143,Ray Lepore,47.3164040002,-122.5396592185,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,563,27,Healthy,"Sword fern, bracken",No
+298477937,Kate Oliver,47.3173208907,-122.5376299951,Thuja plicata,western redcedar,0,No,No selection,Good,559,32.8,Healthy,"Sword Fern, Evergreen Huckleberry",No
+298480201,,47.3169423542,-122.5403133909,Thuja plicata,western redcedar,0,No,No selection,Good,972,25.4,Healthy,Huckelberry,No
+298480292,,47.3170526642,-122.5401917893,Thuja plicata,western redcedar,0,No,No selection,Good,800,13.4,Healthy,Huckleberry,No
+298482047,Kate Oliver,47.315876867,-122.5383127026,Thuja plicata,western redcedar,0,No,No selection,Good,515,60.2,Healthy,"Salal, Trailing Blackberry, Oregon Grape, Sword Fern",No
+298482184,,47.3171800889,-122.5402980687,Thuja plicata,western redcedar,0,No,No selection,Good,971,29.9,Healthy,Salal,No
+298483160,,47.3171086768,-122.5405022301,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,970,31.8,Branch Dieback or 'Flagging',Huckelberry and Salal,No
+298483276,,47.3171640415,-122.5405514935,Thuja plicata,western redcedar,0,No,No selection,Good,788,36.3,Healthy,Sword fern and Salal,No
+298484660,,47.3171561696,-122.5405831769,Thuja plicata,western redcedar,0,No,No selection,Good,790,14.9,Healthy,Evergreen huckleberry,No
+298485256,,47.3171036168,-122.5405703448,Thuja plicata,western redcedar,0,No,No selection,Good,969,38.5,Healthy,"Sword ferns, Salal, Huckelberry",No
+298485325,,47.3172287431,-122.5406683145,Thuja plicata,western redcedar,0,No,No selection,Good,789,33.2,Healthy,Salal,No
+298487825,Ray Lepore,47.3178663655,-122.540027062,Thuja plicata,western redcedar,25,No,Other (please describe in Notes),Poor,564,45.7,Other (please describe in Notes),"Salal, evergreen huckleberry",No
+298491229,Kate Oliver,47.3160987993,-122.5393479358,Thuja plicata,western redcedar,0,No,No selection,Good,562,33.4,Healthy,"Salal, Evergreen Huckleberry",No
+298492208,,47.317990569,-122.5426776417,Thuja plicata,western redcedar,0,No,"Inner stem decay (rot, hollow center, etc.)",Fair,796,73.3,Healthy,Salal,No
+298493674,Kate Oliver,47.3180839756,-122.5413372534,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,565,50.5,Thinning Canopy,"Beaked Hazlenut, salal, Sword Fern",No
+298493982,,47.3180224742,-122.542357306,Thuja plicata,western redcedar,0,No,No selection,Good,967,58.2,Healthy,Salal,No
+298495720,,47.3171869278,-122.5404060295,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,969A,"",Healthy,Sword ferns,No
+298496421,,47.3178808835,-122.5424058932,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Good,968,66.3,Healthy,Huckelberry and sword ferns,No
+298496548,,47.317853367,-122.5432868092,Thuja plicata,western redcedar,0,No,"Insect damage on trunk (holes, frass, galleries, etc.)",Good,707,73,Healthy,Trailing blackberry,No
+298496585,Ray Lepore,47.3179112814,-122.5414398676,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,565A,"",Other (please describe in Notes),"Sword ferns, salal, hazelnut, evergreen huckleberry, salmonberry",No
+298497047,,47.3178950772,-122.5431702909,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,501,24.7,Healthy,Forest floor,No
+298497537,,47.3178832869,-122.5432613671,Thuja plicata,western redcedar,0,Maybe,Other (please describe in Notes),Good,966,38.2,Healthy,Some ferns and Huckleberry but low volume,No
+298498025,Ray Lepore,47.3178717699,-122.5432949865,Thuja plicata,western redcedar,0,No,No selection,Good,566,41.1,Healthy,None,No
+298498189,Kate Oliver,47.3177621927,-122.5433188798,Thuja plicata,western redcedar,0,No,No selection,Good,524,63.7,Healthy,Violet,No
+298499891,,47.3180142258,-122.5434958794,Thuja plicata,western redcedar,0,No,No selection,Good,965,48.1,Healthy,Grass,No
+298501220,,47.3177595058,-122.5436452542,Thuja plicata,western redcedar,0,No,No selection,Good,964,54.9,Healthy,None,No
+298526618,Ray Lepore,47.317797372,-122.5436899091,Thuja plicata,western redcedar,0,No,No selection,Good,567,51,Healthy,Grass,No
+298532115,Kate Oliver,47.3177705558,-122.5434747492,Thuja plicata,western redcedar,0,No,No selection,Good,525,43.9,Healthy,None,No
+299225262,Libby Lindstrom,47.3065017732,-122.5326071867,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,568,40.1,Healthy,Oregon grape huckleberry blackberry Swordfern,No
+299229349,Libby Lindstrom,47.3066147331,-122.5331468208,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,569,39.0,Thinning Canopy,"sword fern, huckleberry, salmon berry bracken fern",No
+299231139,Ray Lepore,47.3068052205,-122.5338454518,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,571,18.9,Other (please describe in Notes),"Trailing blackberry, evergreen huckleberry, sword ferns",No
+299234407,Ray Lepore,47.3067594497,-122.5338075396,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,576,15.8,Healthy,"Bracken and sword ferns, Oregon grape",No
+299239179,Libby Lindstrom,47.3066596409,-122.5339268504,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,572,21.1,Healthy,Bracken ferns,No
+299240571,Libby Lindstrom,47.3066361119,-122.5338550944,Thuja plicata,western redcedar,0,No,No selection,Good,574,9.1,Healthy,Salal and Oregon grape,No
+299240954,Libby Lindstrom,47.3067572065,-122.5343740894,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,577,24.8,Healthy,None,No
+299244198,Libby Lindstrom,47.3067589644,-122.5344230579,Thuja plicata,western redcedar,0,No,No selection,Good,578,31.1,Healthy,"Nettle, Sword Fern, Salal, Huckleberry",No
+299244898,Libby Lindstrom,47.3070170517,-122.5346760286,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Fair,581,24.0,Thinning Canopy,Sword fern blackberry,No
+299247467,Libby Lindstrom,47.3070334049,-122.534473313,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,580,28.8,Thinning Canopy,"",Yes
+299247578,Ray Lepore,47.3070613187,-122.5346481291,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,582,34,Thinning Canopy,"Sword ferns, salal, evergreen huckleberry",No
+299264992,Ray Lepore,47.3070644495,-122.5347948634,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,584,32,Thinning Canopy,"Sword ferns, salal, evergreen huckleberry",No
+299277157,Margaret Pratt,47.3066765181,-122.5337695052,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,570,13.3,Healthy,"bracken fern, salal,",Yes
+299277324,Margaret Pratt,47.3067017053,-122.5337914486,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,573,8.4,Healthy,no understory,No
+299277460,Margaret Pratt,47.3066603663,-122.5339119097,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,575,14.4,Healthy,"sword fern, hazelnut",No
+299277573,Margaret Pratt,47.3070592836,-122.5346242347,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,579,9.0,Healthy,"Sword fern, salal, trailing blackberry, fragrant bedstraw",No
+299277672,Margaret Pratt,47.3070224806,-122.5347426356,Thuja plicata,western redcedar,0,No,No selection,Good,583,12.1,Healthy,"sword fern, salal, western starflower",No
+299277794,Margaret Pratt,47.306791655,-122.5348020999,Thuja plicata,western redcedar,0,No,Multiple factors (please describe in Notes),Good,586,26.0,Healthy,"western starflower, beaked hazelnut, bracken fern",No
+301018908,Ray Lepore,47.3181587503,-122.5433878981,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,593,12.3,Healthy,"Sword ferns, holly",Yes
+301019648,,47.3180700808,-122.5437347344,Thuja plicata,western redcedar,0,No,No selection,Good,953,14.6,Healthy,None,Yes
+301020646,Ray Lepore,47.3181922961,-122.5433405188,Thuja plicata,western redcedar,0,No,No selection,Fair,594,14.7,Thinning Canopy,Sword ferns,No
+301021277,,47.318123104,-122.5437264352,Thuja plicata,western redcedar,0,No,No selection,Good,955,14.2,Healthy,"Fern, Huckelberry",Yes
+301024691,,47.3179096884,-122.543717587,Thuja plicata,western redcedar,0,No,No selection,Good,957,5.6,Healthy,"Ferns, Salal",Yes
+301025705,Ray Lepore,47.318283557,-122.5433562046,Thuja plicata,western redcedar,0,No,No selection,Good,595,13.8,Healthy,Evergreen huckleberry,No
+301026043,Ray Lepore,47.3178963015,-122.5437436728,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,596,7.2,Healthy,"Salal, sword ferns",No
+301026385,,47.3179194844,-122.5443720891,Thuja plicata,western redcedar,0,No,No selection,Good,956,46.7,Healthy,"Evergreen Huckelberry, Salal, ferns",No
+301029757,,47.3179755163,-122.5443491911,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,954,37,Thinning Canopy,"Salal, evergreen Huckelberry, ferns",No
+301032098,,47.3180142442,-122.5445271127,Thuja plicata,western redcedar,0,No,Mechanical damage or fire scars,Fair,958,37,Healthy,Ferns,No
+301033266,,47.3178763164,-122.5446497153,Thuja plicata,western redcedar,0,No,No selection,Good,959,10.5,Healthy,Ferns,No
+301036561,Ray Lepore,47.3178926079,-122.5443568436,Thuja plicata,western redcedar,0,No,No selection,Good,597,27.9,Healthy,"Evergreen huckleberry, sword ferns",No Selection
+301038065,,47.316049852,-122.5441059515,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,963,14.8,Healthy,"Sword ferns, evergreen Huckelberry",No
+301038529,Ray Lepore,47.3179477253,-122.5446082187,Thuja plicata,western redcedar,0,No,No selection,Good,598,24.2,Other (please describe in Notes),Sword ferns,No
+301061759,,47.3161247872,-122.5436227547,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,962,37.2,Thinning Canopy,"Evergreen Huckelberry, sword ferns, Salal",No
+301066110,Ray Lepore,47.3161579868,-122.5441456567,Thuja plicata,western redcedar,0,No,No selection,Good,600,48.3,Healthy,"Evergreen huckleberry, sword ferns, Oregon grape",No
+301066206,Ray Lepore,47.3165756139,-122.5438423132,Thuja plicata,western redcedar,0,No,No selection,Good,961,44.4,Healthy,"Sword and bracken ferns, salal, evergreen huckleberry",No
+301122809,Margaret Pratt,47.3180336946,-122.5436576679,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,592,11.6,Healthy,none,No
+301122903,Margaret Pratt,47.3181652933,-122.5436165724,Thuja plicata,western redcedar,0,No,No selection,Good,591,6.9,Healthy,none,Yes
+301122931,Margaret Pratt,47.318123416,-122.5435435263,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,590,7.8,Healthy,trailing blackberry,No
+301122981,Margaret Pratt,47.3178704822,-122.5441966445,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,589,42.9,Healthy,"sword fern, salal, holly, trailing blackberry",No
+301123039,Margaret Pratt,47.317980745,-122.5443433045,Thuja plicata,western redcedar,0,No,No selection,Good,588,39.6,Healthy,"sword fern, trailing blackberry, evergreen huckleberry, holly",No
+301123089,Margaret Pratt,47.3179608817,-122.5443588664,Thuja plicata,western redcedar,0,No,No selection,Good,587,18.8,Healthy,sword fern,No
+301123177,Margaret Pratt,47.3162280842,-122.5440880404,Thuja plicata,western redcedar,0,No,No selection,Good,599,10.8,Healthy,"bracken, sword fern, salal",Yes
+301123239,Margaret Pratt,47.316253259,-122.5435495668,Thuja plicata,western redcedar,0,No,No selection,Good,960,50.5,Healthy,"salal, sword fern, evergreen huckleberry, beaked hazelnut",No
+301906274,,47.30720212,-122.5351996737,Thuja plicata,western redcedar,0,No,No selection,Good,798,9.3,Healthy,Salal and sword fern,No
+301907190,Ray Lepore,47.3072914582,-122.5353877372,Thuja plicata,western redcedar,0,No,No selection,Good,392,11.1,Other (please describe in Notes),"Salal, trailing blackberry, sword and bracken ferns, salmonberry",No
+301907542,,47.3072452858,-122.5352796418,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,393,9.5,Thinning Canopy,salmon berry and trailing blackberry,No
+301913679,Ray Lepore,47.307658557,-122.5359850926,Thuja plicata,western redcedar,0,No,No selection,Good,394,6.3,Healthy,Sword ferns,Yes
+301914902,,47.3077679848,-122.5361606969,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,395,12.8,Healthy,"Western starflower, salal, sword fern, and bracken fern",No
+301915474,,47.3077821038,-122.536263962,Thuja plicata,western redcedar,0,No,No selection,Good,791,10.6,Healthy,Salal,No
+301915638,Ray Lepore,47.3077189311,-122.5362722263,Thuja plicata,western redcedar,0,No,No selection,Good,396,8.5,Healthy,"Western starflower, red huckleberry",No
+301917710,,47.3079679846,-122.5363641402,Thuja plicata,western redcedar,0,No,No selection,Good,793,10.8,Healthy,None,No
+301919652,,47.3081456976,-122.5361901117,Thuja plicata,western redcedar,0,No,No selection,Good,794,12.6,Healthy,None,No
+301921368,,47.3079274267,-122.5364745011,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,398,13,Healthy,"bracken fern, sword fern, western starflower, and Himalayan blackberry",Yes
+301922316,,47.3083129736,-122.5366660059,Thuja plicata,western redcedar,0,No,No selection,Good,795,8.7,Healthy,Baby cedars,Yes
+301922955,Ray Lepore,47.3078033204,-122.5361981008,Thuja plicata,western redcedar,0,No,No selection,Good,397,12.3,Healthy,"Oregon grape, evergreen huckleberry, western starflower, salal, trailing blackberry",No
+301922985,,47.3079216377,-122.5362768024,Thuja plicata,western redcedar,0,No,"Animal damage (woodpecker/sapsucker holes, bark peeling)",Good,399,9.5,Healthy,Sword fern and western starflower,Yes
+301926077,,47.3087917164,-122.537458921,Thuja plicata,western redcedar,0,No,No selection,Good,1001,22.7,Healthy,Huckleberry,No
+301933154,Ray Lepore,47.3075608132,-122.5362596624,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,792,18.6,Healthy,None,Yes
+301933199,Ray Lepore,47.3084229084,-122.5369314861,Thuja plicata,western redcedar,0,No,Other (please describe in Notes),Good,400,9.6,Healthy,Salal,No

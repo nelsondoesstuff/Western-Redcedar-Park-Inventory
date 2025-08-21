@@ -1,0 +1,109 @@
+---
+title: "Western Redcedar Point Defiance Data Analysis"
+output: html_document
+date: "2025-08-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# **Packages**
+
+Load Tidyverse.
+```{r}
+library(tidyverse)
+```
+
+Load Stringr.
+```{r}
+library(stringr)
+```
+
+Load Stringdist
+```{r}
+library(stringdist)
+```
+
+Load Permute (required package for vegan).
+```{r}
+library(permute)
+```
+
+Load Vegan.
+```{r}
+library(vegan)
+```
+# **Data Wrangling**
+
+Import observations.
+```{r}
+i.nat.all <- read.csv("observations-601233.csv")
+```
+
+For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, lowercasing everything, fuzzy matching, then splitting rows into columns based on species data contained within each string filtered through our species list with assigned 0s and 1s based on species presence.
+
+Vector to filter species prep for NMDS.
+```{r}
+SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "none", "", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel")
+```
+
+Lowercase everything within field.
+```{r}
+i.nat.all$field.most.prevalent.understory.species <- tolower(i.nat.all$field.most.prevalent.understory.species)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bar chart setup.
+```{r}
+tcs=c("602", "128", "28")
+```
+
+```{r}
+Tree.Condition.Summary <- data.frame(
+  category=c("Good","Fair","Poor") , 
+  value=as.numeric(tcs)
+)
+```
+
+Load ggplot2
+```{r}
+library(ggplot2)
+```
+
+```{r}
+ggplot(Tree.Condition.Summary, aes(x=reorder(category, -value) , y=value)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Tree Condition", y = "Tree Count", title = "Tree Condition of Western Red Cedar Found at Point Defiance 2025")
+```
+
+
+
+For tree size a histogram with bucket size **5 inch** for now should suffice for our purposes.
+
+Separate DBH column into its own data frame.
+```{r}
+DBH.Inch <- i.nat.all[c(12)]
+```
+
+Create histogram. (Bin = 5 Inches starting from 0)
+```{r}
+ggplot(DBH.Inch, aes(x = field.tree.diameter)) + 
+  geom_histogram(binwidth = 5, boundary = 0, fill = "springgreen4", color = "black") + 
+  stat_bin(binwidth = 5, boundary = 0, geom = "text", aes(label = after_stat(count), vjust = -0.5)) + 
+  labs(x = "DBH", y = "Count", title = "Western Red Cedar Tree Sizes Found at Point Defiance 2025")
+```
+
+The 27 entries removed were entries without DBH's entered.
+
