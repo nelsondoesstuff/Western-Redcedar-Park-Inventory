@@ -7,6 +7,7 @@ date: "2025-08-02"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # **Packages**
 
 Load Tidyverse.
@@ -14,14 +15,24 @@ Load Tidyverse.
 library(tidyverse)
 ```
 
-Load Stringr.
-```{r}
-library(stringr)
-```
-
-Load Stringdist
+Load Stringdist.
 ```{r}
 library(stringdist)
+```
+
+Load Dplyr.
+```{r}
+library(dplyr)
+```
+
+Load Tidytext.
+```{r}
+library(tidytext)
+```
+
+Load Fuzzyjoin.
+```{r}
+library(fuzzyjoin)
 ```
 
 Load Permute (required package for vegan).
@@ -33,6 +44,12 @@ Load Vegan.
 ```{r}
 library(vegan)
 ```
+
+Load Tidyr
+```{r}
+library(tidyr)
+```
+
 # **Data Wrangling**
 
 Import observations.
@@ -40,17 +57,121 @@ Import observations.
 i.nat.all <- read.csv("observations-601233.csv")
 ```
 
-For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, lowercasing everything, fuzzy matching, then splitting rows into columns based on species data contained within each string filtered through our species list with assigned 0s and 1s based on species presence.
+For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, setting everything to lowercase, CREATING FUCKING TOKENS WHAT THE FUCK IS THIS???
 
-Vector to filter species prep for NMDS.
+Vector to filter species prep for NMDS. (For this first NMDS run we will include "none" as a species.)
 ```{r}
-SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "none", "", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel")
+SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "fern", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel")
 ```
 
-Lowercase everything within field.
+Lowercase everything, remove extra spaces, and common delimiters.
 ```{r}
-i.nat.all$field.most.prevalent.understory.species <- tolower(i.nat.all$field.most.prevalent.understory.species)
+Token.Prep <- i.nat.all %>%
+  mutate(field.most.prevalent.understory.species = str_to_lower(field.most.prevalent.understory.species),
+         field.most.prevalent.understory.species = str_replace_all(field.most.prevalent.understory.species, "(/| and |&|\\+),", " "),
+         field.most.prevalent.understory.species = str_replace_all(field.most.prevalent.understory.species, ",", " "),
+         field.most.prevalent.understory.species = str_squish(field.most.prevalent.understory.species))
 ```
+
+Replace all unfilled observation fields with "none".
+```{r}
+Token.Prep <- Token.Prep %>%
+  mutate(field.most.prevalent.understory.species = ifelse(field.most.prevalent.understory.species == "", "none", field.most.prevalent.understory.species))
+```
+
+Tokenize n = 1.
+```{r}
+Token.Prep.1gram <- Token.Prep %>%
+  select(id, field.most.prevalent.understory.species) %>%
+  unnest_tokens(output = "ngram", input = field.most.prevalent.understory.species, token = "ngrams", n = 1)
+```
+
+Tokenize n = 2.
+```{r}
+Token.Prep.2gram <- Token.Prep %>%
+  select(id, field.most.prevalent.understory.species) %>%
+  unnest_tokens(output = "ngram", input = field.most.prevalent.understory.species, token = "ngrams", n = 2)
+```
+
+Tokenize n = 3.
+```{r}
+Token.Prep.3gram <- Token.Prep %>%
+  select(id, field.most.prevalent.understory.species) %>%
+  unnest_tokens(output = "ngram", input = field.most.prevalent.understory.species, token = "ngrams", n = 3)
+```
+
+Merge all 3 token dataframes.
+```{r}
+Token.Prep.All <- bind_rows(Token.Prep.1gram, Token.Prep.2gram, Token.Prep.3gram) %>%
+  distinct()
+```
+
+Fuzzy match.
+```{r}
+FuzzyMatchedSpeciesList <- stringdist_left_join(Token.Prep.All, 
+  data.frame(ngram = SpeciesList), 
+  method = "jw",
+  max_dist = 0.15,
+  distance_col = "dist")
+```
+
+Filter fuzzy match and remove NA.
+```{r}
+CleanedFuzzyMatch <- FuzzyMatchedSpeciesList %>%
+  filter(!is.na(ngram.y))
+```
+
+Create species matrix.
+```{r}
+SpeciesMatrix <- CleanedFuzzyMatch %>%
+  distinct(id, ngram.y) %>%
+  mutate(presence = 1) %>%
+  pivot_wider(names_from = ngram.y, values_from = presence, values_fill = 0)
+```
+
+Remove tree ids.
+```{r}
+UnderstorySpeciesValuesMatrix <- SpeciesMatrix %>%
+  select(-id)
+```
+
+Run NMDS
+```{r}
+NMDSRun1 <- metaMDS(UnderstorySpeciesValuesMatrix,
+                    distance = "bray",
+                    k = 2,
+                    trymax = 10)
+```
+
+Checking results.
+```{r}
+print(NMDSRun1)
+```
+Checking orientation disance (not sure what this means but a perfect R value does not look good.)
+```{r}
+stressplot(NMDSRun1)
+```
+
+```{r}
+plot(NMDSRun1, type = "t")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
