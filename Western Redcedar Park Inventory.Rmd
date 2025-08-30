@@ -45,11 +45,6 @@ Load Vegan.
 library(vegan)
 ```
 
-Load Tidyr
-```{r}
-library(tidyr)
-```
-
 # **Data Wrangling**
 
 Import observations.
@@ -129,10 +124,33 @@ SpeciesMatrix <- CleanedFuzzyMatch %>%
   pivot_wider(names_from = ngram.y, values_from = presence, values_fill = 0)
 ```
 
+Create new data frame of trees with tree canopy health data combined with Species Matrix.
+```{r}
+TreeCanopyHealthData <- i.nat.all[,c("id","field.tree.health.condition")]
+  
+CombinedMatrix <- left_join(TreeCanopyHealthData, SpeciesMatrix, by = "id")
+```
+
+We still have NA left over from observations that did not have any understory species observed, for our NMDS they need to be assigned with 0s for absence.
+```{r}
+CombinedMatrix <- CombinedMatrix %>% 
+  mutate(across(everything(), ~replace_na(., 0)))
+```
+
+Then we remove all the observations with (No selection) for tree canopy health.
+```{r}
+CombinedMatrix <- CombinedMatrix %>% filter(field.tree.health.condition != "no selection")
+```
+
 Remove tree ids.
 ```{r}
 UnderstorySpeciesValuesMatrix <- SpeciesMatrix %>%
   select(-id)
+```
+
+Check if dataset is transposed.
+```{r}
+dim(UnderstorySpeciesValuesMatrix)
 ```
 
 Run NMDS
@@ -147,44 +165,16 @@ Checking results.
 ```{r}
 print(NMDSRun1)
 ```
-Checking orientation disance (not sure what this means but a perfect R value does not look good.)
+
+Checking orientation distance.
 ```{r}
 stressplot(NMDSRun1)
 ```
 
+Plotting graph.
 ```{r}
-plot(NMDSRun1, type = "t")
+plot(NMDSRun1, display = "sites", type = "t")
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Bar chart setup.
 ```{r}
