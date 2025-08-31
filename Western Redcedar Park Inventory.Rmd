@@ -131,32 +131,27 @@ TreeCanopyHealthData <- i.nat.all[,c("id","field.tree.health.condition")]
 CombinedMatrix <- left_join(TreeCanopyHealthData, SpeciesMatrix, by = "id")
 ```
 
-We still have NA left over from observations that did not have any understory species observed, for our NMDS they need to be assigned with 0s for absence.
+We still have NA left over from observations that did not have any under story species observed, for our NMDS they need to be removed.
 ```{r}
-CombinedMatrix <- CombinedMatrix %>% 
-  mutate(across(everything(), ~replace_na(., 0)))
+CombinedMatrix2 <- na.omit(CombinedMatrix)
 ```
 
 Then we remove all the observations with (No selection) for tree canopy health.
 ```{r}
-CombinedMatrix <- CombinedMatrix %>% filter(field.tree.health.condition != "no selection")
+CombinedCleanedMatrix <- CombinedMatrix2 %>% filter(field.tree.health.condition != "No selection")
 ```
 
-Remove tree ids.
+Remove Tree Health Condition Column for NMDS and remove tree ids column.
 ```{r}
-UnderstorySpeciesValuesMatrix <- SpeciesMatrix %>%
-  select(-id)
+UnderstorySpeciesValuesMatrix <- CombinedCleanedMatrix %>%
+  select(-id, -field.tree.health.condition)
 ```
 
-Check if dataset is transposed.
-```{r}
-dim(UnderstorySpeciesValuesMatrix)
-```
-
-Run NMDS
+Run NMDS.
 ```{r}
 NMDSRun1 <- metaMDS(UnderstorySpeciesValuesMatrix,
-                    distance = "bray",
+                    distance = "jaccard",
+                    binary = TRUE,
                     k = 2,
                     trymax = 10)
 ```
@@ -174,6 +169,26 @@ stressplot(NMDSRun1)
 Plotting graph.
 ```{r}
 plot(NMDSRun1, display = "sites", type = "t")
+```
+Extract NMDSRun1 Scores.
+```{r}
+NMDSRun1Scores <- scores(NMDSRun1, display = "sites")
+```
+
+Separate the tree health scores column from our CombinedCleanMatrix Data Frame.
+```{r}
+TreeCanopyHealthScoringPrep <- CombinedCleanedMatrix[,c("field.tree.health.condition")]
+```
+
+Plot Graph.
+```{r}
+ggplot(NMDSRun1Scores, aes(x = NMDS1, y = NMDS2, color = TreeCanopyHealthScoringPrep)) +
+  geom_point(size = 3) +
+  scale_color_manual(values = c("Good" = "forestgreen", "Fair" = "yellow", "Poor" = "orange", "Dead" = "red")) +
+  theme_minimal() +
+  labs(title = "NMDS with Tree Health Scores",
+       color = "Tree Health") +
+  coord_cartesian(xlim = c(-3, 1), ylim = c(-.5, 1))
 ```
 
 Bar chart setup.
