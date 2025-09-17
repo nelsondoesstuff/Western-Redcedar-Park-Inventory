@@ -8,7 +8,7 @@ date: "2025-08-02"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# **Packages**
+# **Packages/Libraries Used**
 
 Load Tidyverse.
 ```{r}
@@ -52,11 +52,13 @@ Import observations.
 i.nat.all <- read.csv("observations-601233.csv")
 ```
 
-For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, setting everything to lowercase, CREATING FUCKING TOKENS WHAT THE FUCK IS THIS???
+##NMDS Analysis Prep
 
-Vector to filter species prep for NMDS. (For this first NMDS run we will include "none" as a species.)
+For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, setting everything to lowercase and removing common delimiters, creating tokens, running a fuzzymatch based off of the tokens and seeing what matches up with our species filter, and creating a species matrix.
+
+Vector to filter species prep for NMDS.
 ```{r}
-SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "fern", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel")
+SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel", "mountain huckleberry", "thimble berry", "ivy")
 ```
 
 Lowercase everything, remove extra spaces, and common delimiters.
@@ -147,6 +149,7 @@ UnderstorySpeciesValuesMatrix <- CombinedCleanedMatrix %>%
   select(-id, -field.tree.health.condition)
 ```
 
+##NMDS Analysis
 Run NMDS.
 ```{r}
 NMDSRun1 <- metaMDS(UnderstorySpeciesValuesMatrix,
@@ -175,46 +178,64 @@ Extract NMDSRun1 Scores.
 NMDSRun1Scores <- scores(NMDSRun1, display = "sites")
 ```
 
-Separate the tree health scores column from our CombinedCleanMatrix Data Frame.
+##Visualizing NMDS Data
+
+Extract Tree Canopy Health Scores.
 ```{r}
 TreeCanopyHealthScoringPrep <- CombinedCleanedMatrix[,c("field.tree.health.condition")]
 ```
 
-Plot Graph.
+Visualizing data with color scores.
 ```{r}
 ggplot(NMDSRun1Scores, aes(x = NMDS1, y = NMDS2, color = TreeCanopyHealthScoringPrep)) +
   geom_point(size = 3) +
   scale_color_manual(values = c("Good" = "forestgreen", "Fair" = "yellow", "Poor" = "orange", "Dead" = "red")) +
   theme_minimal() +
-  labs(title = "NMDS with Tree Health Scores",
-       color = "Tree Health") +
-  coord_cartesian(xlim = c(-3, 1), ylim = c(-.5, 1))
+  labs(title = "NMDS with Tree Health Scores", color = "Tree Health") +
+  coord_cartesian(xlim = c(-3, 3), ylim = c(-1, 1))
 ```
+As of the day of writing this after running the final NMDS analysis it seems we just don't have a large enough sample size with enough dead trees to confirm if there is any relationship between understory plants and overall tree health. As this project continues to grow with more data collected and more parks assessed future assessments on the data may yield more interesting results.
 
-Bar chart setup.
+
+##Sorting Tree Condition
+
+Separating column for Tree Conditions.
 ```{r}
-tcs=c("602", "128", "28")
+good_count <- TreeCanopyHealthData %>%
+  summarise(good_count = sum(field.tree.health.condition == "Good")) %>%
+  pull(good_count)
+fair_count <- TreeCanopyHealthData %>%
+  summarise(fair_count = sum(field.tree.health.condition == "Fair")) %>%
+  pull(fair_count)
+poor_count <- TreeCanopyHealthData %>%
+  summarise(poor_count = sum(field.tree.health.condition == "Poor")) %>%
+  pull(poor_count)
+dead_count <- TreeCanopyHealthData %>%
+  summarise(dead_count = sum(field.tree.health.condition == "Dead")) %>%
+  pull(dead_count)
 ```
 
+Create list of Tree Conditions.
+```{r}
+tcs=c("602", "128", "28", "1")
+```
+
+Create from list of tree conditions data frame on tree condition.
 ```{r}
 Tree.Condition.Summary <- data.frame(
-  category=c("Good","Fair","Poor") , 
+  category=c("Good","Fair","Poor", "Dead") , 
   value=as.numeric(tcs)
 )
 ```
 
-Load ggplot2
-```{r}
-library(ggplot2)
-```
-
+Bar chart.
 ```{r}
 ggplot(Tree.Condition.Summary, aes(x=reorder(category, -value) , y=value)) +
   geom_bar(stat = "identity") +
   labs(x = "Tree Condition", y = "Tree Count", title = "Tree Condition of Western Red Cedar Found at Point Defiance 2025")
 ```
 
-
+##Sorting DBH Sizes into Buckets
 
 For tree size a histogram with bucket size **5 inch** for now should suffice for our purposes.
 
@@ -232,4 +253,158 @@ ggplot(DBH.Inch, aes(x = field.tree.diameter)) +
 ```
 
 The 27 entries removed were entries without DBH's entered.
+
+##ArcGIS Species Hotspots Mapping GIS Prep
+
+In order to create the species hot spots maps I will need to attach GPS coordinates from the i.nat.all dataframe with the SpeciesMatrix dataframe and then filter for presence from the 1s and 0s from each column and separate each of those into CSV files for ArcGIS.
+
+Creating dataframe with just longitude, latitude and id.
+```{r}
+GPSCoords <- i.nat.all[c(1,3,4)]
+```
+
+Combining based off of ID columns in GPSCoords with SpeciesMatrix.
+```{r}
+GPSCoordPrep <- left_join(SpeciesMatrix,GPSCoords, by = "id")
+```
+
+Filtering rows based on presence of species X and turning created dataframes into CSVs.
+
+Salal.
+```{r}
+GisPrepSalal <- GPSCoordPrep %>%
+  filter(`salal` == 1) %>%
+  select(`salal`, latitude, longitude)
+write_csv(GisPrepSalal, "Salal.csv")
+```
+
+Wax Myrtle.
+```{r}
+
+```
+
+Fern.
+```{r}
+
+```
+
+Ivy.
+```{r}
+
+```
+
+Stinking Iris.
+```{r}
+
+```
+
+Huckleberry.
+```{r}
+
+```
+
+Cedar.
+```{r}
+
+```
+
+Holly.
+```{r}
+
+```
+
+Sword Fern.
+```{r}
+
+```
+
+Horsetail.
+```{r}
+
+```
+
+Bracken Fern.
+```{r}
+
+```
+
+Cotoneaster.
+```{r}
+
+```
+
+Nettle.
+```{r}
+
+```
+
+Salmon Berry.
+```{r}
+
+```
+
+Cherry Laurel.
+```{r}
+
+```
+
+Oregon Grape.
+```{r}
+
+```
+
+Trailing Blackberry.
+```{r}
+
+```
+
+Ocean Spray.
+```{r}
+
+```
+
+Evergreen Huckleberry.
+```{r}
+GisPrepEvergreenHuckleberry <- GPSCoordPrep %>%
+  filter(`evergreen huckleberry` == 1) %>%
+  select(`evergreen huckleberry`, latitude, longitude)
+write_csv(GisPrepEvergreenHuckleberry, "Evergreen Huckleberry.csv")
+```
+
+Western Starflower.
+```{r}
+
+```
+
+Himalayan Blackberry.
+```{r}
+
+```
+
+Horse Chestnut.
+```{r}
+
+```
+
+Pacific Sanicle.
+```{r}
+
+```
+
+American Trailplant.
+```{r}
+
+```
+
+Mountain Sweet Cicely.
+```{r}
+
+```
+
+
+
+
+
+
+
 
