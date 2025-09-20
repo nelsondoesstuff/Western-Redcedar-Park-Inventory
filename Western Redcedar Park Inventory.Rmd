@@ -20,11 +20,6 @@ Load Stringdist.
 library(stringdist)
 ```
 
-Load Dplyr.
-```{r}
-library(dplyr)
-```
-
 Load Tidytext.
 ```{r}
 library(tidytext)
@@ -52,13 +47,13 @@ Import observations.
 i.nat.all <- read.csv("observations-601233.csv")
 ```
 
-##NMDS Analysis Prep
+#### **NMDS Analysis Prep**
 
 For the "Most Prevalent Understory Species" field our NMDS prep will consist of creating a list of species for filtering, setting everything to lowercase and removing common delimiters, creating tokens, running a fuzzymatch based off of the tokens and seeing what matches up with our species filter, and creating a species matrix.
 
 Vector to filter species prep for NMDS.
 ```{r}
-SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmon berry", "holly", "western starflower", "nettle", "moutain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel", "mountain huckleberry", "thimble berry", "ivy")
+SpeciesList <- c("huckleberry", "oregon grape", "himalayan blackberry", "trailing blackberry", "fern", "sword fern", "bracken fern", "salal", "salmonberry", "holly", "western starflower", "nettle", "mountain sweet cicely", "ocean spray", "pacific sanicle", "american trailplant", "horse chestnut", "cedar", "evergreen huckleberry", "wax myrtle", "stinking iris", "cotoneaster", "horsetail", "cherry laurel", "mountain huckleberry", "thimble berry", "ivy")
 ```
 
 Lowercase everything, remove extra spaces, and common delimiters.
@@ -149,7 +144,7 @@ UnderstorySpeciesValuesMatrix <- CombinedCleanedMatrix %>%
   select(-id, -field.tree.health.condition)
 ```
 
-##NMDS Analysis
+#### **NMDS Analysis**
 Run NMDS.
 ```{r}
 NMDSRun1 <- metaMDS(UnderstorySpeciesValuesMatrix,
@@ -173,12 +168,13 @@ Plotting graph.
 ```{r}
 plot(NMDSRun1, display = "sites", type = "t")
 ```
+
 Extract NMDSRun1 Scores.
 ```{r}
 NMDSRun1Scores <- scores(NMDSRun1, display = "sites")
 ```
 
-##Visualizing NMDS Data
+#### **Visualizing NMDS Data**
 
 Extract Tree Canopy Health Scores.
 ```{r}
@@ -194,10 +190,13 @@ ggplot(NMDSRun1Scores, aes(x = NMDS1, y = NMDS2, color = TreeCanopyHealthScoring
   labs(title = "NMDS with Tree Health Scores", color = "Tree Health") +
   coord_cartesian(xlim = c(-3, 3), ylim = c(-1, 1))
 ```
-As of the day of writing this after running the final NMDS analysis it seems we just don't have a large enough sample size with enough dead trees to confirm if there is any relationship between understory plants and overall tree health. As this project continues to grow with more data collected and more parks assessed future assessments on the data may yield more interesting results.
+
+As of the day of writing this after running the final NMDS analysis it seems we just don't have a large enough sample size with enough dead trees to confirm if there is any relationship between observed understory plants and overall tree health. As this project continues to grow with more data collected and more parks assessed future assessments on the data may yield more interesting results. 
+
+Something that may want to be considered is re framing the observation field of "Most prevalent Understory species" instead into "Understory Species Found" as the volunteers have been logging every visible understory plant species found within the understory of each tree.
 
 
-##Sorting Tree Condition
+#### **Sorting Tree Condition**
 
 Separating column for Tree Conditions.
 ```{r}
@@ -235,7 +234,7 @@ ggplot(Tree.Condition.Summary, aes(x=reorder(category, -value) , y=value)) +
   labs(x = "Tree Condition", y = "Tree Count", title = "Tree Condition of Western Red Cedar Found at Point Defiance 2025")
 ```
 
-##Sorting DBH Sizes into Buckets
+#### **Sorting DBH Sizes into Buckets**
 
 For tree size a histogram with bucket size **5 inch** for now should suffice for our purposes.
 
@@ -254,7 +253,7 @@ ggplot(DBH.Inch, aes(x = field.tree.diameter)) +
 
 The 27 entries removed were entries without DBH's entered.
 
-##ArcGIS Species Hotspots Mapping GIS Prep
+#### **ArcGIS Species Hotspots Mapping GIS Prep**
 
 In order to create the species hot spots maps I will need to attach GPS coordinates from the i.nat.all dataframe with the SpeciesMatrix dataframe and then filter for presence from the 1s and 0s from each column and separate each of those into CSV files for ArcGIS.
 
@@ -275,92 +274,143 @@ Salal.
 GisPrepSalal <- GPSCoordPrep %>%
   filter(`salal` == 1) %>%
   select(`salal`, latitude, longitude)
-write_csv(GisPrepSalal, "Salal.csv")
+  write_csv(GisPrepSalal, "Salal.csv")
 ```
 
 Wax Myrtle.
 ```{r}
-
+GisPrepWaxMyrtle <- GPSCoordPrep %>%
+  filter(`wax myrtle` == 1) %>%
+  select(`wax myrtle`, latitude, longitude)
+  write_csv(GisPrepWaxMyrtle, "WaxMyrtle.csv")
 ```
 
 Fern.
 ```{r}
-
+GisPrepFern <- GPSCoordPrep %>%
+  filter(`fern` == 1) %>%
+  select(`fern`, latitude, longitude)
+  write_csv(GisPrepFern, "Fern.csv")
 ```
 
 Ivy.
 ```{r}
-
+GisPrepIvy <- GPSCoordPrep %>%
+  filter(`ivy` == 1) %>%
+  select(`ivy`, latitude, longitude)
+  write_csv(GisPrepIvy, "Ivy.csv")
 ```
 
 Stinking Iris.
 ```{r}
-
+GisPrepStinkingIris <- GPSCoordPrep %>%
+  filter(`stinking iris` == 1) %>%
+  select(`stinking iris`, latitude, longitude)
+  write_csv(GisPrepStinkingIris, "StinkingIris.csv")
 ```
 
 Huckleberry.
 ```{r}
-
+GisPrepHuckleberry <- GPSCoordPrep %>%
+  filter(`huckleberry` == 1) %>%
+  select(`huckleberry`, latitude, longitude)
+  write_csv(GisPrepHuckleberry, "Huckleberry.csv")
 ```
 
 Cedar.
 ```{r}
-
+GisPrepCedar <- GPSCoordPrep %>%
+  filter(`cedar` == 1) %>%
+  select(`cedar`, latitude, longitude)
+  write_csv(GisPrepCedar, "Cedar.csv")
 ```
 
 Holly.
 ```{r}
-
+GisPrepHolly <- GPSCoordPrep %>%
+  filter(`holly` == 1) %>%
+  select(`holly`, latitude, longitude)
+  write_csv(GisPrepHolly, "Holly.csv")
 ```
 
 Sword Fern.
 ```{r}
-
+GisPrepSwordFern <- GPSCoordPrep %>%
+  filter(`sword fern` == 1) %>%
+  select(`sword fern`, latitude, longitude)
+  write_csv(GisPrepSwordFern, "SwordFern.csv")
 ```
 
 Horsetail.
 ```{r}
-
+GisPrepHorsetail <- GPSCoordPrep %>%
+  filter(`horsetail` == 1) %>%
+  select(`horsetail`, latitude, longitude)
+  write_csv(GisPrepHorsetail, "Horsetail.csv")
 ```
 
 Bracken Fern.
 ```{r}
-
+GisPrepBrackenFern <- GPSCoordPrep %>%
+  filter(`bracken fern` == 1) %>%
+  select(`bracken fern`, latitude, longitude)
+  write_csv(GisPrepBrackenFern, "BrackenFern.csv")
 ```
 
 Cotoneaster.
 ```{r}
-
+GisPrepCotoneaster <- GPSCoordPrep %>%
+  filter(`cotoneaster` == 1) %>%
+  select(`cotoneaster`, latitude, longitude)
+  write_csv(GisPrepCotoneaster, "Cotoneaster.csv")
 ```
 
 Nettle.
 ```{r}
-
+GisPrepNettle <- GPSCoordPrep %>%
+  filter(`nettle` == 1) %>%
+  select(`nettle`, latitude, longitude)
+  write_csv(GisPrepNettle, "Nettle.csv")
 ```
 
-Salmon Berry.
+Salmonberry.
 ```{r}
-
+GisPrepSalmonberry <- GPSCoordPrep %>%
+  filter(`salmonberry` == 1) %>%
+  select(`salmonberry`, latitude, longitude)
+  write_csv(GisPrepSalmonberry, "Salmonberry.csv")
 ```
 
 Cherry Laurel.
 ```{r}
-
+GisPrepCherryLaurel <- GPSCoordPrep %>%
+  filter(`cherry laurel` == 1) %>%
+  select(`cherry laurel`, latitude, longitude)
+  write_csv(GisPrepCherryLaurel, "CherryLaurel.csv")
 ```
 
 Oregon Grape.
 ```{r}
-
+GisPrepOregonGrape <- GPSCoordPrep %>%
+  filter(`oregon grape` == 1) %>%
+  select(`oregon grape`, latitude, longitude)
+  write_csv(GisPrepOregonGrape, "OregonGrape.csv")
 ```
 
 Trailing Blackberry.
 ```{r}
-
+GisPrepTrailingBlackberry <- GPSCoordPrep %>%
+  filter(`trailing blackberry` == 1) %>%
+  select(`trailing blackberry`, latitude, longitude)
+  write_csv(GisPrepTrailingBlackberry, "TrailingBlackberry.csv")
 ```
 
 Ocean Spray.
 ```{r}
-
+GisPrepOceanSpray <- GPSCoordPrep %>%
+  filter(`ocean spray` == 1) %>%
+  select(`ocean spray`, latitude, longitude)
+  write_csv(GisPrepOceanSpray, "OceanSpray.csv")
 ```
 
 Evergreen Huckleberry.
@@ -368,40 +418,58 @@ Evergreen Huckleberry.
 GisPrepEvergreenHuckleberry <- GPSCoordPrep %>%
   filter(`evergreen huckleberry` == 1) %>%
   select(`evergreen huckleberry`, latitude, longitude)
-write_csv(GisPrepEvergreenHuckleberry, "Evergreen Huckleberry.csv")
+write_csv(GisPrepEvergreenHuckleberry, "EvergreenHuckleberry.csv")
 ```
 
 Western Starflower.
 ```{r}
-
+GisPrepWesternStarflower <- GPSCoordPrep %>%
+  filter(`western starflower` == 1) %>%
+  select(`western starflower`, latitude, longitude)
+write_csv(GisPrepWesternStarflower, "WesternStarflower.csv")
 ```
 
 Himalayan Blackberry.
 ```{r}
-
+GisPrepHimalayanBlackberry <- GPSCoordPrep %>%
+  filter(`himalayan blackberry` == 1) %>%
+  select(`himalayan blackberry`, latitude, longitude)
+write_csv(GisPrepHimalayanBlackberry, "HimalayanBlackberry.csv")
 ```
 
 Horse Chestnut.
 ```{r}
-
+GisPrepHorseChestnut <- GPSCoordPrep %>%
+  filter(`horse chestnut` == 1) %>%
+  select(`horse chestnut`, latitude, longitude)
+write_csv(GisPrepHorseChestnut, "HorseChestnut.csv")
 ```
 
 Pacific Sanicle.
 ```{r}
-
+GisPrepPacificSanicle <- GPSCoordPrep %>%
+  filter(`pacific sanicle` == 1) %>%
+  select(`pacific sanicle`, latitude, longitude)
+write_csv(GisPrepPacificSanicle, "PacificSanicle.csv")
 ```
 
 American Trailplant.
 ```{r}
-
+GisPrepAmericanTrailplant <- GPSCoordPrep %>%
+  filter(`american trailplant` == 1) %>%
+  select(`american trailplant`, latitude, longitude)
+write_csv(GisPrepAmericanTrailplant, "AmericanTrailplant.csv")
 ```
 
 Mountain Sweet Cicely.
 ```{r}
-
+GisPrepMountainSweetCicely <- GPSCoordPrep %>%
+  filter(`mountain sweet cicely` == 1) %>%
+  select(`mountain sweet cicely`, latitude, longitude)
+write_csv(GisPrepMountainSweetCicely, "MountainSweetCicely.csv")
 ```
 
-
+Another way to also visually represent the data is to look at the diversity of species at each location.
 
 
 
