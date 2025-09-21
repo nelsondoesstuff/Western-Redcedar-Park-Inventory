@@ -40,6 +40,11 @@ Load Vegan.
 library(vegan)
 ```
 
+Load Indicspecies.
+```{r}
+library(indicspecies)
+```
+
 # **Data Wrangling**
 
 Import observations.
@@ -187,14 +192,24 @@ ggplot(NMDSRun1Scores, aes(x = NMDS1, y = NMDS2, color = TreeCanopyHealthScoring
   geom_point(size = 3) +
   scale_color_manual(values = c("Good" = "forestgreen", "Fair" = "yellow", "Poor" = "orange", "Dead" = "red")) +
   theme_minimal() +
+  stat_ellipse(type = "norm", level = 0.95) +
   labs(title = "NMDS with Tree Health Scores", color = "Tree Health") +
-  coord_cartesian(xlim = c(-3, 3), ylim = c(-1, 1))
+  coord_cartesian(xlim = c(-5, 5), ylim = c(-1, 1))
 ```
 
 As of the day of writing this after running the final NMDS analysis it seems we just don't have a large enough sample size with enough dead trees to confirm if there is any relationship between observed understory plants and overall tree health. As this project continues to grow with more data collected and more parks assessed future assessments on the data may yield more interesting results. 
 
-Something that may want to be considered is re framing the observation field of "Most prevalent Understory species" instead into "Understory Species Found" as the volunteers have been logging every visible understory plant species found within the understory of each tree.
+Something that may want to be considered is re framing the observation field of "Most prevalent Under story species" instead into "Under story Species Found" as the volunteers have been logging every visible under story plant species found within the under story of each tree.
 
+#### **Indicator Species Analysis**
+
+Indicator Species analysis to check if there is any species that are potential "indicators" of tree health.
+```{r}
+IndicatorSpeciesAnalysis <- multipatt(UnderstorySpeciesValuesMatrix, TreeCanopyHealthScoringPrep, func = "IndVal.g", duleg = TRUE, control = how(nperm=999))
+summary(IndicatorSpeciesAnalysis)
+```
+
+No species were found to be indicators.
 
 #### **Sorting Tree Condition**
 
@@ -234,6 +249,32 @@ ggplot(Tree.Condition.Summary, aes(x=reorder(category, -value) , y=value)) +
   labs(x = "Tree Condition", y = "Tree Count", title = "Tree Condition of Western Red Cedar Found at Point Defiance 2025")
 ```
 
+Creating CSVs for tree conditions for GIS prep.
+```{r}
+TreeConditionGIS <- i.nat.all[c(3,4,10)]
+
+GisPrepTreeHealthConditionGood <- TreeConditionGIS %>%
+  filter(field.tree.health.condition == "Good") %>%
+  select(`field.tree.health.condition`, latitude, longitude)
+  write_csv(GisPrepTreeHealthConditionGood, "TreeHealthConditionGood.csv")
+  
+GisPrepTreeHealthConditionFair <- TreeConditionGIS %>%
+  filter(field.tree.health.condition == "Fair") %>%
+  select(`field.tree.health.condition`, latitude, longitude)
+  write_csv(GisPrepTreeHealthConditionFair, "TreeHealthConditionFair.csv")
+  
+GisPrepTreeHealthConditionPoor <- TreeConditionGIS %>%
+  filter(field.tree.health.condition == "Poor") %>%
+  select(`field.tree.health.condition`, latitude, longitude)
+  write_csv(GisPrepTreeHealthConditionPoor, "TreeHealthConditionPoor.csv")
+  
+GisPrepTreeHealthConditionDead <- TreeConditionGIS %>%
+  filter(field.tree.health.condition == "Dead") %>%
+  select(`field.tree.health.condition`, latitude, longitude)
+  write_csv(GisPrepTreeHealthConditionDead, "TreeHealthConditionDead.csv")
+```
+
+
 #### **Sorting DBH Sizes into Buckets**
 
 For tree size a histogram with bucket size **5 inch** for now should suffice for our purposes.
@@ -253,9 +294,9 @@ ggplot(DBH.Inch, aes(x = field.tree.diameter)) +
 
 The 27 entries removed were entries without DBH's entered.
 
-#### **ArcGIS Species Hotspots Mapping GIS Prep**
+#### **ArcGIS Species Mapping GIS Prep**
 
-In order to create the species hot spots maps I will need to attach GPS coordinates from the i.nat.all dataframe with the SpeciesMatrix dataframe and then filter for presence from the 1s and 0s from each column and separate each of those into CSV files for ArcGIS.
+In order to create the species maps I will need to attach GPS coordinates from the i.nat.all dataframe with the SpeciesMatrix dataframe and then filter for presence from the 1s and 0s from each column and separate each of those into CSV files for ArcGIS.
 
 Creating dataframe with just longitude, latitude and id.
 ```{r}
