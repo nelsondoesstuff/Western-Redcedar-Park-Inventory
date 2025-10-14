@@ -203,7 +203,7 @@ Something that may want to be considered is re framing the observation field of 
 
 #### **Indicator Species Analysis**
 
-Indicator Species analysis to check if there is any species that are potential "indicators" of tree health.
+Indicator Species analysis to check if there are any species that are potential "indicators" of tree health.
 ```{r}
 IndicatorSpeciesAnalysis <- multipatt(UnderstorySpeciesValuesMatrix, TreeCanopyHealthScoringPrep, func = "IndVal.g", duleg = TRUE, control = how(nperm=999))
 summary(IndicatorSpeciesAnalysis)
