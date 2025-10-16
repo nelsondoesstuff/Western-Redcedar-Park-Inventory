@@ -199,7 +199,11 @@ ggplot(NMDSRun1Scores, aes(x = NMDS1, y = NMDS2, color = TreeCanopyHealthScoring
 
 As of the day of writing this after running the final NMDS analysis it seems we just don't have a large enough sample size with enough dead trees to confirm if there is any relationship between observed understory plants and overall tree health. As this project continues to grow with more data collected and more parks assessed future assessments on the data may yield more interesting results. 
 
-Something that may want to be considered is re framing the observation field of "Most prevalent Under story species" instead into "Under story Species Found" as the volunteers have been logging every visible under story plant species found within the under story of each tree.
+Something that may want to be considered is reframing the observation field of "Most prevalent Under story species" instead into "Understory Species Found" as the volunteers have been logging every visible understory plant species found near the base of the tree (2 - 10 ft depending on tree size).
+
+I expect this data to change as more parks are inventoried especially where WRC are artificially planted and instead may lack an understory. More questions arise; Are our WRC in our parks doing worse than our WRC in our forests? Would planting WRC with certain understory species increase survivability? Would planting understory species near WRC improve tree condition or help fight rapid decline?
+
+Joey if you are reading this I would be interested in the future analyzing the entire WRC Dieback Project more indepth with hopefully the skills to combine climate data and create a model based on expected temperature changes over the next 10 years.
 
 #### **Indicator Species Analysis**
 
