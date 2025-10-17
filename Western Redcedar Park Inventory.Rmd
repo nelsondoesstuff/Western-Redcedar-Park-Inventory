@@ -203,8 +203,6 @@ Something that may want to be considered is reframing the observation field of "
 
 I expect this data to change as more parks are inventoried especially where WRC are artificially planted and instead may lack an understory. More questions arise; Are our WRC in our parks doing worse than our WRC in our forests? Would planting WRC with certain understory species increase survivability? Would planting understory species near WRC improve tree condition or help fight rapid decline?
 
-Joey if you are reading this I would be interested in the future analyzing the entire WRC Dieback Project more indepth with hopefully the skills to combine climate data and create a model based on expected temperature changes over the next 10 years.
-
 #### **Indicator Species Analysis**
 
 Indicator Species analysis to check if there are any species that are potential "indicators" of tree health.
@@ -516,17 +514,11 @@ write_csv(GisPrepMountainSweetCicely, "MountainSweetCicely.csv")
 
 #### **Mapping understory diversity**
 
+TBD
 Another way to also visually represent the data is to look at the diversity of species at each location. We can do this by giving each GPS point a "score" corresponding to the # of understory species found and then marking/coloring them in ARCGis based on species diversity.
 
 
 #### **Breaking up dates**
 
+TBD
 We can also create a timelapse of the map slowly filling with observations. Might underscore how much work went into gathering the data.
-
-
-
-
-
-
-
-
